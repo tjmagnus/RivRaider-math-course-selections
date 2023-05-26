@@ -46,7 +46,7 @@
       </colophon>
     </frontmatter>
 
-    <chapter xml:id="chapter-title">
+    <chapter xml:id="intro100">
       <title>MA100 Math Refresher</title>
       <introduction>
         <p>
@@ -68,13 +68,20 @@
            problems; using algebraic properties to simplify 
            expressions and solve equations; graphing and 
            determining equations of lines; and solving systems 
-           of two equations in two unknowns. 
+           of two equations in two unknowns. Sample problems
+           that you should be able to do at the end of the 
+           semester are given in the next section. If you are
+           able to do these problems now, you may be ready to 
+          ready to take your general education mathematics
+          course requirement without taking MA100. Read on!
       </p>
+      <xref ref="section-LOmr"/>
       </introduction>
 
-      <section xml:id="section-title">
-        <title>Section title</title>
-        <p>Hello </p>
+      <section xml:id="section-LOmr">
+        <title>What will I learn in MA100 Math Refresher?</title>
+
+        <p>At the end of MA100, you should be able to </p>
       </section>
     </chapter>
 
