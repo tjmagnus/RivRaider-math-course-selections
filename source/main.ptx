@@ -46,44 +46,37 @@
       </colophon>
     </frontmatter>
 
-    <chapter xml:id="intro100">
-      <title>MA100 Math Refresher</title>
-      <introduction>
-        <p>
-        MA100 is designed to refresh and review your algebra
-        knowledge and skills. The goals of this 
-        course are to develop and strengthen the skills needed
-        for subsequent courses in mathematics and other fields 
-        and to build your self-confidence in using mathematics. 
-        MA100 does 
-        not fulfill the general education mathematics 
-        requirement--you will need to take a second 
-        mathematics course regardless of your major—but it 
-        does count toward the credits needed for graduation.  
-        </p>
+    <chapter xml:id="about">
+      <title>About this Document</title>
+      
       
       <p>
-           Topics include computations with signed numbers, 
-           fractions, and exponents; reading and solving word 
-           problems; using algebraic properties to simplify 
-           expressions and solve equations; graphing and 
-           determining equations of lines; and solving systems 
-           of two equations in two unknowns. Sample problems
-           that you should be able to do at the end of the 
-           semester are given in the next section. If you are
-           able to do these problems now, you may be ready to 
-          ready to take your general education mathematics
-          course requirement without taking MA100. Read on!
+        Welcome to Rivier University! This document is designed to be used in conjunction with the self-placement survey
+        to assist you in selecting your initial mathematics course. 
       </p>
-      <xref ref="section-LOmr"/>
-      </introduction>
-
-      <section xml:id="section-LOmr">
-        <title>What will I learn in MA100 Math Refresher?</title>
-
-        <p>At the end of MA100, you should be able to </p>
-      </section>
+      <p>
+        Rivier University students are required to take at least one mathematics course at the level of MA112 or 
+        above. The mathematics courses satisfying this requirement encourage students to move beyond basic skills 
+        and algorithms and enables them to apply mathematics to solving problems in various fields. Students will 
+        see how mathematics can be used to discern truth, explore beauty, and understand our world and they will 
+        be encouraged to think in ways that a computer cannot, making them more valuable in today’s world. Your major
+        and your mathematical history both play a role in identifying the mathematics course that is best for you. 
+        The ideal course will be one where you feel comfortably challenged and where you have the necessary 
+        preparation yet still have more to learn. 
+        This type of learning environment is where you will be most engaged and successful. 
+      </p>
+      <p>
+        When you completed the survey, a course was recommended for you. You are encouraged to look at the description, 
+        learning outcomes, and prerequisite skills for that course to verify that you were appropriately placed. If the
+        course looks too easy or too challenging for you, follow the links to explore other options. Then return to the 
+        survey to record your selection. Your advisor will look at your selection as well as your initial recommendation
+        and use this information to develop your schedule.
+      </p>
     </chapter>
+    <xi:include href="ch-MR.ptx"/>
+    <xi:include href="ch-CA.ptx"/>
+    
+        
 
     <backmatter xml:id="backmatter">
       <title>Backmatter</title>

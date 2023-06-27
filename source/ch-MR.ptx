@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-MR" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>MA100 Math Refresher</title>
+  <introduction>
+    <p>
+        MA100 is designed to refresh and review your algebra
+        knowledge and skills. The goals of this 
+        course are to develop and strengthen the skills needed
+        for subsequent courses in mathematics and other fields 
+        and to build your self-confidence in using mathematics. 
+        MA100 does 
+        not fulfill the general education mathematics 
+        requirement--you will need to take a second 
+        mathematics course regardless of your major—but it 
+        does count toward the credits needed for graduation.  
+    </p>
+      
+    <p>
+        Topics include computations with signed numbers, 
+        fractions, and exponents; reading and solving word 
+        problems; using algebraic properties to simplify 
+        expressions and solve equations; graphing and 
+        determining equations of lines; and solving systems 
+        of two equations in two unknowns. Sample problems
+        that you should be able to do at the end of the 
+        semester are given in the next section. If you are
+        able to do these problems now, you may be ready to 
+        ready to take your general education mathematics
+        course requirement without taking MA100. Read on!
+      </p>
+
+      <p>
+        There are no prerequisites for this course. 
+      </p>
+    
+      </introduction>
+      
+      <section xml:id="sec-MR-outcomes">
+        <title>What will I learn in MA100 Math Refresher</title>
+        <subtitle>Learning Outcomes in MA100</subtitle>
+        <introduction>
+        <p> 
+            At the end of MA100, you should be able to do the following:
+        <ol>
+          <li> 
+            <p>
+            Be able to perform the operations of addition, subtraction, multiplication, and 
+            division with signed numbers and fractions with and without a calculator.
+            </p>      
+        <exercise>
+        <statement>
+          <p>
+            Compute the following without a calculator 
+          </p>
+          <ol cols="3">
+            <li>
+              <p>
+                <m>
+                  \frac{3}{5}-\frac{1}{2}
+                </m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  \frac{8} {\frac{4}{3}}
+                </m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  -23-(-15)
+                </m>
+              </p>
+            </li>
+          </ol>
+        </statement>
+        <solution>
+          <p>
+            (a) <m> \frac{1}{10} </m>; (b) <m>6</m>, (c) <m> -8 </m>.
+          </p>
+        </solution>
+        </exercise>
+        </li>
+        <li> 
+            <p>
+            Be able to use order of operations correctly.
+            </p>   
+         <exercise>
+        <statement>
+          <p>
+              
+          </p>
+          <ol>
+            <li>
+              <p>
+                <m>
+                  4(3+7)-8+5(2-3)
+                </m>
+              </p>
+            </li>
+          </ol>
+        </statement>
+        <solution>
+          <p>
+            <m> 27 </m>.
+          </p>
+        </solution>
+        </exercise>
+        </li>
+        <li>
+          <p>
+           Simplify algebraic expressions. 
+          </p>
+         <exercise>
+        <statement>
+          <p>
+            Simplify algebraic expressions.  
+          </p>
+          <ol>
+            <li>
+              <p>
+                <m>
+                  3x-5(x+4)
+                </m>
+              </p>
+            </li>
+          </ol>
+        </statement>
+        <solution>
+          <p>
+            <m> -2x-20 </m>. Other allowable answers 
+            include <m>-20-2x</m> and <m>-2(10+x)</m> and <m>2(-10-x)</m>.
+          </p>
+        </solution>
+        </exercise>
+        </li>
+        </ol>
+        </p>
+        </introduction>
+      </section>
+</chapter>
