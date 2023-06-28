@@ -66,7 +66,7 @@
         This type of learning environment is where you will be most engaged and successful. 
       </p>
       <p>
-        When you completed the survey, a course was recommended for you. You are encouraged to look at the description, 
+        When you completed the first part of the survey, a course was recommended for you. You are encouraged to look at the description, 
         learning outcomes, and prerequisite skills for that course to verify that you were appropriately placed. If the
         course looks too easy or too challenging for you, follow the links to explore other options. Then return to the 
         survey to record your selection. Your advisor will look at your selection as well as your initial recommendation
@@ -75,7 +75,10 @@
     </chapter>
     <xi:include href="ch-MR.ptx"/>
     <xi:include href="ch-CA.ptx"/>
-    
+    <xi:include href="ch-QL.ptx"/>
+    <xi:include href="ch-Puzzles.ptx"/>
+    <xi:include href="ch-GeoEx.ptx"/>
+    <xi:include href="ch-Functions.ptx"/>
         
 
     <backmatter xml:id="backmatter">
