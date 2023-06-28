@@ -19,11 +19,6 @@
         exponential and logarithmic expressions, graphing linear and quadratic functions, 
         and solving applied problems and systems of linear equations. 
     </p>
-
-    <p>
-        The prerequisites for MA112 are the same as the Learning Outcomes for MA100.
-        ADD LINK???? 
-    </p>
     
     </introduction>
     <exercises>
@@ -242,5 +237,19 @@
             </ol>
           </solution>
         </exercise>
+        <conclusion>
+          <p>
+            If you feel comfortable completing most of the above problems on your own with only minor errors, 
+            then you should be ready to enroll in MA130 Functions which is described in <xref ref="ch-Functions"/>.
+            If you had difficulty even starting most of the problems, you might want to look at MA100 Math Refresher, 
+            <xref ref="ch-MR"/> to strengthen the mathematical skills needed for MA112 College Algebra and other 
+            courses. If you are able to do most of the problems in <xref ref="ch-MR"/> but not many of the problems
+            on this page, MA112 College Algebra is the right course for you.
+            </p>
+            <p>
+            If you are ready to confirm your mathematics course selection, return to the Directed Self-Placement and 
+            check the box for the desired course. 
+          </p>
+        </conclusion>
     </exercises>
 </chapter>
