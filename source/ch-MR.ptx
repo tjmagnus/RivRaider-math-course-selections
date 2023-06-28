@@ -195,9 +195,12 @@
           <p>
             If you do not feel comfortable completing the above problems on your own, then MA100 is probably the
             right course for you. Return to the Directed Self-Placement and select MA100. On the other hand, if you
-            were able to complete 80% of the problems without assistance, you probably are ready for 
-            a different course. Nursing majors should look at MA123, Quantitative majors should look at MA112 or MA130,
-            Education majors should look at MA127, and students in other majors may consider MA123, MA126, or MA127.
+            were able to complete 80% of the problems with only minor errors and without assistance, 
+            you probably are ready for 
+            a different course. Nursing majors should look at <xref ref="ch-QL"/>, Quantitative majors should look at 
+            <xref ref="ch-CA"/> or <xref ref="ch-Functions"/>,
+            Education majors should look at <xref ref="ch-Puzzles"/>, and students in other majors may consider
+            <xref ref="ch-QL"/>, ,<xref ref="ch-Puzzles"/>, or <xref ref="ch-GeoEx"/>.
           </p>
         </conclusion>
       </exercises>
