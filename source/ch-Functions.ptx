@@ -42,7 +42,12 @@
         <title>What will I learn in MA130 Functions</title>
         <introduction>
           <p> 
-            At the end of MA130, you should be able to do the following:
+            At the end of MA130, you should be able to do the following. You 
+            do not need to be able to do these problems at the beginning of the course. 
+            Trigonometric, exponential, and logarithmic functions will be introduced 
+            in MA130, but students should already have a strong grasp of linear functions 
+            and the ability to simplify expressions involving polynomials, radicals, and 
+            exponents.
           </p>
         </introduction>
         <exercise>
@@ -60,16 +65,6 @@
               <p>
                 Identify from the graph of <m>y=g(x)</m>, given below, where 
                 <m>g(x)</m> has a positive rate of change.
-                <image xml:id="dspdesmosrocgraph">
-                    <description>The graph of a function that starts at 
-                        the lower left, rising to just touch the x-axis at 
-                        the point (-2,0), then 
-                        falling to the point (2,-4) after crossing 
-                        the y-axis at (0,-2). To the right of (2,-4), the graph 
-                        goes upward crossing the x-axis at (4,0) and continuing upward.  
-                    </description>
-                    
-                </image>
               </p>
             </li>
           </ol>
@@ -81,17 +76,219 @@
           </p>
         </answer>
         </exercise>
+        <image source="dspdesmosrocgraph" width="50%">
+            <description>The graph of a function that starts at 
+                the lower left, rising to just touch the x-axis at 
+                the point (-2,0), then 
+                falling to the point (2,-4) after crossing 
+                the y-axis at (0,-2). To the right of (2,-4), the graph 
+                goes upward crossing the x-axis at (4,0) and continuing upward.  
+            </description>
+        </image>
         <exercise>
-            <title>Work with functions defined graphically or verbally</title>
+            <title>Work with functions defined graphically</title>
             <statement>
+                Given the graph of <m>y=g(x)</m> above, determine the following:
                 <ol>
                     <li>
                         <p>
-                            Given the graph
+                            <m>y=g(3)</m> 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The solution(s) of <m>g(x)=2</m>.
                         </p>
                     </li>
                 </ol>
             </statement>
+        </exercise>
+        <exercise>
+            <title>Work with functions defined verbally</title>
+            <statement>
+            <p>        
+                The money in a bank account is increasing by 5% 
+                every year. There is $30,000 in the account in 2020. 
+            </p>
+            <ol>
+                <li>
+                    <p>
+                        Write a formula for $A(t)$, the amount of 
+                        money in the account <m>t</m> years after 2020. 
+                    </p>
+                </li>
+                <li>
+                    <p> 
+                        Determine the amount of money in the account in 
+                        2025.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        In what year will the amount of money reach $100,000?
+                    </p>
+                </li>   
+            </ol>    
+            </statement>
+            <hint>
+                <p>    
+                    Is this function linear, exponential, or something else?
+                </p>
+            </hint>
+            <answer>
+                <p>
+                (a) <m>A(t)=30000(1.05)^t</m>; (b) $38,288 exactly 5 years after it 
+                had $30,000; (c) During late 2044 or approximately 25 years after 2020
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    (a) The growth is exponential. Each year we have the amount that was 
+                    in the account the previous year plus an additional 0.05 times that 
+                    amount. Thus, we are multiplying the amount in the account by $1+0.05$
+                    each year giving a formula of <m>A(t)=30000(1.05)^t</m>. 
+                
+                    (b) <m>30000(1.05)^5\approx 32.288</m>;
+
+                    (c) Solve <m>100000=30000(1.05)^t</m> using logarithms or by 
+                    viewing where the curves of <m>y=100000</m> and <m>y=30000(1.05)^t</m> intersect 
+                    on a graphing 
+                    calculator or similar app. To use logarithms,
+                    <md>
+                        <mrow>\frac{10}{3}\amp=1.05^t </mrow>
+                        <mrow>ln\left(\frac{10}{3}\right)\amp=t(ln(1.05))</mrow>
+                        <mrow>\frac{ln(\frac{10}{3})}{ln(1.05)}\amp=t</mrow>
+                        <mrow>t\approx 24.68</mrow>
+                    </md>
+                </p>
+    </solution>
+        </exercise>
+        <exercise>
+            <title>Determine the inverse of a function and use it to solve problems</title>
+            <statement>
+                <ol>
+                    <li>
+                        <p>
+                            Determine the inverses of the following functions:
+                        </p>
+                        
+                        <ol>
+                            <li><m>f(x)=3x-7</m></li>
+                            <li><m>g(x)=\frac{5}{x+8}</m></li>
+                            <li><m>h(t)=2\ln(6t)</m></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <p>
+                            Use inverse properties to simplify <m>f^{-1}(f(3y))-y</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                        Determine the angle <m>\theta</m> such that <m>\tan\theta=-1</m> and <m>0\lt\theta\lt \pi</m>.
+                        </p>
+                    </li>
+                </ol>
+            </statement>
+        </exercise>
+        <exercise>
+            <title>Combine and transform functions</title>
+            <statement>
+                <ol>
+                    <li>
+                            <p>
+                                Let <m>f(x)=x+3</m> and <m>g(x)=2x^2-x+4</m>. Determine the following:
+                            </p>
+                        <ol cols="2">
+                            <li>
+                                <m>(f+g)(x)</m>
+                            </li>
+                            <li>
+                                <m>(fg)(2)</m>
+                            </li>
+                            <li>
+                                <m>g\circ f(x)</m>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <p>
+                            Describe how the graph of <m>h(x)=-2f(x)</m> is 
+                            related to the graph of <m>y=f(x)</m>.
+                        </p>
+                    </li>
+                </ol>
+            </statement>
+            <answer>
+                <p>
+                    a. i. <m>(f+g)(x)=2x^2+7</m>;
+                    ii. <m>(fg)(2)=50</m>; iii. <m>f\circ g(x)=2x^2+11x+19</m>
+                    b. The graph is reflected over the <m>x</m>-axis and stretched 
+                    vertically by a factor of 2.
+                </p>
+            </answer>
+            <solution>
+                <ol>
+                    <li>
+                      <ol>                        
+                        <li>
+                        <p>
+                            <m>(f+g)(x)=f(x)+g(x)=(x+3)+(2x^2-x+4)=2x^2+7</m>
+                        </p>
+                        </li>
+                        <li>
+                        <p>
+                            <m>(fg)(2)=f(2)g(2)=5\cdot 10=50</m>
+                        </p>
+                        </li> 
+                        <li>
+                        <p>
+                            <m>f\circ g(x)=2(x+3)^2-(x+3)+4
+                            =2x^2+12x+18-x-3+4=2x^2+11x+19</m>  
+                        </p>
+                        </li> 
+                      </ol>
+                    </li>
+                </ol>
+            </solution>
+        </exercise>
+        <exercise>
+            <title>Recognize families of functions by their graphs and develop
+                a formula for a graphed function
+            </title>
+            <statement>
+                <p>
+                    Describe each pictured graph as linear, polynomial,
+                    exponential, logarithmic, absolute value, or sinusoidal.
+                    Give a formula for the function based on the function 
+                    family and key points.
+                </p>
+                <ol>
+                    <li>
+                        <p>
+                            <image source="Rivabsgph130" width="50%">
+                                <description>The graph of a upside-down V-shaped function, 
+                                    rising from the lower left until it 
+                                    reaches its peak at (4,2) then turning sharply downward  
+                                    again. The intercepts are (0,-2), (2,0), and (6,0).  
+                                </description>
+                            </image>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <image source="Rivsinugraph130" width="50%">
+                                <description>The graph of an oscillating function with maxima 
+                                    at <m>(-2\pi,3)</m>, <m>(0,3)</m>, and <m>(2\pi,3)</m> and 
+                                        minima at <m>(-\pi,-1)</m>, <m>(\pi,-1)</m>, and <m>(3\pi,-1)</m>.   
+                                </description>
+                            </image>  
+                        </p>
+                    </li>
+                </ol>      
+            </statement>
+            <answer>
+                <p>(a) <m>f(x)=2-|x-4|</m>; (b) <m>f(t)=2cos(t)+1</m></p> </answer>
         </exercise>
     </exercises>
 </chapter>
