@@ -8,18 +8,99 @@
         courses that may be chosen to fulfill the mathematics core complement 
         requirement. Other options include MA123 Quantitative Literacy 
         <xref ref="ch-QL"/>, MA127 Geometrical Explorations <xref ref="ch-GeoEx"/>,
-        and MA130 Functions <xref ref="Functions"/>.
- 
+        and MA130 Functions <xref ref="ch-Functions"/>.
     </p>
-    
     <p>
-        Topics include  
+        In MA126, the focus is on mathematical thinking and 
+        open-ended problem solving. Creativity and logic will 
+        serve you well as you explore some of the big ideas of 
+        mathematics. You will explore the many patterns arising 
+        from the sequence 1, 1, 2, 3, 5, 8, …, become aware of 
+        the importance of prime numbers and remainders in our digital 
+        world, learn what makes rational numbers so different from 
+        irrationals, question whether there might be more than one 
+        size of infinity, compute probabilities, stumble upon 
+        paradoxes, and be introduced to some conjectures that have 
+        not yet been proved to be true (or false)! If you enjoy 
+        puzzles and games and figuring stuff out, this may be the 
+        class for you.
     </p>
-
     <p>
-        The prerequisites for MA126 are 
-        ADD PREREQUISITES HERE 
+        The content of MA126 may vary, but some of the questions below 
+        are often explored:
+        <ul>
+            <li>
+                <p>
+                  If I could fold a paper in half 50 times, how high 
+                  would it be?  
+                </p>
+            </li>
+            <li>
+                <p>
+                    Continue the sequence <m>3,4,7,11,18,\dots</m>. 
+                    What do we notice about the ratios <m>\frac{4}{3},\frac{7}{4},
+                        \frac{11}{7},\frac{18}{11},\dots</m>?
+                </p>
+            </li>
+            <li>
+                <p>
+                    Why must there be an infinite number of primes? 
+                    What role do prime numbers play in our digital world?
+                </p>
+            </li>
+            <li>
+                <p>
+                    Is <m>\frac{\sqrt{56}}{\sqrt{14}}</m> a rational 
+                    number? How do I write <m>23.154154\dots</m> as a 
+                    fraction? 
+                </p>
+            </li>
+            <li>
+                What is the missing digit in the UPC code <m>02481000551</m>X?
+            </li>
+            <li>
+                <p>
+                    Whole numbers, integers, rational numbers, real numbers: Are 
+                    these sets of numbers the same size or are there different sizes 
+                    of infinity?
+                </p>
+            </li>
+            <li>
+                <p>
+                    What is the probability that two people in the class share a 
+                    birthday?
+                </p>
+            </li>
+            <li>
+                <p>
+                    How can I use logic and mathematics to ensure that I will win a 
+                    two-player game? Does it matter whether I play first or second?
+                </p>
+            </li>
+        </ul>
     </p>
-    
+    <p>
+        To be successful in MA126, you need to be able to do basic 
+        algebra including operations on fractions, converting between 
+        units, simplifying expressions, and 
+        solving equations. You should be willing to read word problems 
+        and develop strategies to solve them. Some algebraic topics such 
+        as prime factorization, long division, and the quadratic equation 
+        will be reviewed briefly when introduced in the course. Most importantly, 
+        you are expected to approach mathematical tasks with a "can-do" 
+        attitude, a sense of curiosity, 
+        and a willingness to explore ideas and 
+        test out strategies with others.
+    </p>
     </introduction>
+    <p>
+        If you are ready to sign up for MA126 Puzzles, Patterns, 
+        and Probabilities or another course you've researched,
+        you may return to the Directed Self-Placement Tools and record your selection.
+        If you would like to explore other options, for completing your mathematics  
+        requirement, you may look at MA123 Quantitative Literacy <xref ref="ch-QL"/>, MA127 Geometrical 
+        Explorations <xref ref="ch-GeoEx"/>, or MA130 Functions <xref ref="ch-Functions"/>. If you 
+        are concerned about your readiness for these mathematics courses, you may explore 
+        MA100 Math Refresher <xref ref="ch-MR"/> as an option before making your decision.
+    </p>        
 </chapter>
