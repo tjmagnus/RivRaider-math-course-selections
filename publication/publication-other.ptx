@@ -33,7 +33,8 @@
     <!-- Set which marked elements are included in this version: -->
     <!-- See
     https://pretextbook.org/doc/guide/html/publication-file-source.html#publication-file-source-version -->
-    <!-- <version include="videos labs"/> -->
+     <version include="gen-ed"/> 
+    
   </source>
 
   <numbering>
@@ -129,5 +130,5 @@
   </html>
 
   <!-- To use WeBWorK, you need a server.  -->
-  <webwork server="https://webwork-ptx.aimath.org"/>
+  <!-- <webwork server="https://webwork-ptx.aimath.org"> -->
 </publication>

@@ -51,16 +51,35 @@
               Calculators are allowed unless specified.
             </p>
           </introduction>
-          <exercise>
+          <exercise label="gas-price">
             <title>Reasoning proportionally and convert between units</title>
             <statement>
                 <p>
-                    The cost of a litre of gasoline in Brasilia in June 2023 was 5.23 Brazilian
-                    Real. Convert 5.23 Real/litre to US dollars/gallon. Use the exchange rate 
+                    The cost of a liter of gasoline in Brasilia in June 2023 was 5.23 Brazilian
+                    Real. Convert 5.23 Real/liter to US dollars/gallon. Use the exchange rate 
                     1 B Real = 0.21 US Dollar and the conversion factor 1 liter = 0.264 gallon in 
-                    your work.
+                    your work. Round to the nearest penny per gallon.
                 </p>
+                <p>The equivalent cost is <var /> US $ per gallon.</p>
             </statement>
+            <setup>
+                <var>
+                    <condition number="4.16" tolerance="0.01">
+                        <feedback>
+                            <p>
+                                Correct.
+                            </p>
+                        </feedback>
+                    </condition>
+                    <condition string="*.*">
+                        <feedback>
+                            <p>
+                                Incorrect. 
+                            </p>
+                        </feedback>
+                    </condition>
+                </var>
+            </setup>
             <hint>
                 <p>
                     How do we define being able to do this problem? Speed is less important that reasoning 

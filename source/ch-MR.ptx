@@ -53,9 +53,7 @@
           <ol cols="3">
             <li>
               <p>
-                <m>
-                  \frac{3}{5}-\frac{1}{2}
-                </m>
+                <m>\frac{3}{5}-\frac{1}{2}</m>
               </p>
             </li>
             <li>
@@ -84,14 +82,39 @@
         <title>Use order of operations correctly</title>  
         <statement>
           <p>
-           Compute  <m>4(3+7)-8+5(2-3)</m>.
+           Compute  <m>4(3+7)-8+5(2-3)=</m><var />.
           </p>
         </statement>
-        <solution>
+          <setup>
+            <var>
+              <condition number="27">
+                <feedback>
+                  <p>
+                    Correct.
+                  </p>
+                </feedback>
+              </condition>
+              <condition number="43">
+                <feedback>
+                  <p>
+                    Incorrect. Be sure to multiply before adding.
+                  </p>
+                </feedback> 
+              </condition>
+              <condition number="*.*">
+                <feedback>
+                  <p>
+                    You made an error somewhere.
+                  </p>
+                </feedback>
+              </condition>
+            </var>
+          </setup>
+          <!-- <solution>
           <p>
             <m>27</m>.
           </p>
-        </solution>
+        </solution> -->
         </exercise>
         <exercise>
           <title>Simplify algebraic expressions</title>
@@ -177,7 +200,7 @@
                 <p>
                   Expand <m>(x+3)(x-2)-5(x+6)</m> and gather like terms.
                 </p>
-              </li>>
+              </li>
               <li>
                 <p>
                   Factor <m>3x^2-300</m> completely.
