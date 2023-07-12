@@ -12,7 +12,18 @@
   </docinfo>
 
   <book xml:id="RivUMathCourses">
-    <title>Rivier University Mathematics Course Selections</title>
+    <title component="educ">
+      Rivier University Mathematics Courses for Education Majors
+    </title>
+    <title component="quant">
+      Rivier University Mathematics Courses for Quantitative Majors
+    </title>
+    <title component="nursing">
+      Rivier University Mathematics Courses for Nursing Majors
+    </title>
+    <title component="gen-ed">
+      Rivier University Mathematics Courses
+    </title>
     <subtitle>A Supplement to the Directed Self-Placement Survey</subtitle>
 
     <frontmatter xml:id="frontmatter">
@@ -75,7 +86,7 @@
         less technical fields. In reality, most mathematics courses touch on all of these in some 
         way, but the table below gives an indication of what is emphasized in each course.
       </p>
-      <p>
+      <p component="gen-ed">
         ADD TABLE HERE. HEADINGS: SKILLS, PREREQ, APPLICATION, CREATIVE THOUGHT, LOGIC, CONJECTURE, REAL-WORLD  
       </p>
       <p>
@@ -97,7 +108,7 @@
       <title>Backmatter</title>
 
       <colophon>
-        <p> This book was authored in <pretext />. </p>
+        <p> This course selection supplement was authored in <pretext />. </p>
       </colophon>
 
     </backmatter>
