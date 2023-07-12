@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-above130" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <title>Course Beyond MA130 Functions</title>
+  <introduction>
+    <p>
+        Incoming students with a strong mathematical foundation 
+        may take a course above MA130 Functions
+        to fulfill their general education mathematics requirement.
+        Options include MA165 Calculus I, MA166 Calculus II, MA220
+        Calculus III, MA210 Linear Algebra, and MA310 Discrete Mathematics. 
+        Information on these courses may be found in the 
+        <url href="catalog.rivier.edu/index.php" visual="Rivier University Academic Catalog"/>.
+        Students who believe that they are ready to take a course above 
+        should contact their <url href="mailto:asktheadvisor@rivier.edu" 
+        visual="asktheadvisor@rivier.edu">academic advisor</url> who will  
+        facilitate a discussion between you and the Mathematics Program 
+        director.
+    </p>
+  </introduction>
+  
+  <section xml:id="sec-APandIBscores">
+    <title>Advanced Placement and International Baccalaureate scores</title>
+    <p>
+        Students who have taken an Advanced Placement Test in 
+        Calculus or an International Baccalaureate Higher Level 
+        Examination may be eligible to receive credit for a mathematics
+        course. Once scores are received, students should contact their  
+        <url href="mailto:asktheadvisor@rivier.edu" 
+        visual="asktheadvisor@rivier.edu">academic advisor</url> to 
+        get the credit awarded and discuss schedule and degree plan 
+        options. Students who are waiting on their scores are 
+        encouraged to enroll in <xref ref="ch-Functions"/> MA130 Functions 
+        now to reserve a seat and then to adjust their 
+        schedule once scores are available.
+    </p>
+    
+  </section>
+</chapter>
