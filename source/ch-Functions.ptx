@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-Functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="ch-Functions" xmlns:xi="http://www.w3.org/2001/XInclude" component="QEG">
     <title>MA130 Functions</title>
   <introduction>
     <p>
@@ -38,7 +38,7 @@
         difficult for you, you might want to begin in MA112 instead of MA130.   
     </p>
     </introduction>
-    <exercises>
+    <!--<exercises>
         <title>What will I learn in MA130 Functions</title>
         <introduction>
           <p> 
@@ -301,9 +301,9 @@
               On the other hand, if you are comfortable completing most of the
                 above problems on your own with only minor errors, 
               then you may be ready to enroll in MA165 Calculus 
-              <!--(See 
+              <(See 
               <url href="https://catalog.rivier.edu/preview_program.php?catoid=115&poid=9330">MA165 Course Description</url>
-               ) -->or a higher-level course. Talk to your advisor and/or 
+               ) or a higher-level course. Talk to your advisor and/or 
               the mathematics program director to help you determine the right course for you.
               Credit for Advanced Placement exams will be considered once scores are received.
               </p>
@@ -313,5 +313,5 @@
               check the box for the desired course or action. 
             </p>
           </conclusion>
-    </exercises>
+    </exercises>-->
 </chapter>

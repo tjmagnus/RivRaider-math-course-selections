@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-above130" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="ch-above130" xmlns:xi="http://www.w3.org/2001/XInclude"
+component="QEG">
 
     <title>Course Beyond MA130 Functions</title>
   <introduction>

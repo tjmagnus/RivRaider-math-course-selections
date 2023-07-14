@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-QL" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="ch-QL" xmlns:xi="http://www.w3.org/2001/XInclude"
+component="NG">
     <title>MA123 Quantitative Literacy</title>
   <introduction>
     <p>
