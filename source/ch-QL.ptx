@@ -21,7 +21,8 @@ component="NG">
     </p>
     <p component="gen-ed">
         If you are not majoring in Nursing, Education, or a quantitative 
-        field, you have some freedom in selecting your initial mathematics course.
+        field, you have freedom in selecting the mathematics course 
+        to satisfy your general education requirement.
         The course described here focuses on applying your algebra skills 
         to every day life decisions. For some students, this is an ideal course as
         they gain useful tools and appreciate math through its application. Other students may 
@@ -103,11 +104,68 @@ component="NG">
         </exercise>
         <exercise>
             <title>Understanding and using percentages</title>
-            <statement>
-                <p>
-                    LOOK AT WEBWORK FOR POSSIBLE PROBLEMS
-                </p>
-            </statement>
+            <task>
+                <statement>
+                    <p>
+                        Write <m>64\%</m> as a simplified fraction.
+                    </p>
+                </statement>
+                <!--<answer>
+                    <p>
+                        <m>\frac{16}{25}</m>
+                    </p>
+                </answer> -->
+            </task> 
+            <task>
+                <statement>
+                    <p>
+                        If you take a 5 percent cut in pay this year and then get 
+                        a 10 percent raise 
+                        the following year, by what percent will your salary grow over the 
+                        two-year period?  
+                    </p>
+                </statement>
+                <choices>
+                    <choice>
+                        <p> 2.5 percent
+                        </p>
+                    </choice>
+                    <choice correct="yes"> 
+                        <p>
+                            4.5 percent  
+                        </p>
+                    </choice>
+                    <choice>
+                        <p> 5 percent
+                        </p>
+                    </choice>
+                    <choice>
+                        <p> 7.5 percent
+                        </p>
+                    </choice>
+                </choices>
+                <!--</answer>
+                    <p> 4.5 percent </p>
+                </answer>-->
+            </task>  
+            <task> 
+                <statement>
+                        
+                    <p> Your restaurant bill of $55.59 includes a 
+                        9% meals tax. What was the charge for the meal 
+                        before the tax was added? Your answer should be  
+                        correct to the nearest cent.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        $51.00. If you got $50.59, you made the common 
+                            mistake of subtracting <m>0.9\cdot 55.59</m> from 
+                            $55.59. Check your work by increasing your answer by 
+                            9 percent. Do you get $55.59? 
+                    </p>
+                </answer>
+            </task>
         </exercise>
         <exercise>
             <title>Use scientific notation effectively</title>
