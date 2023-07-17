@@ -204,15 +204,6 @@ component="NG">
     </exercises>
     <conclusion>
         <p component="nursing">
-            If you are a nursing major and most of the above problems seem easy for 
-            you, you may not be required to take a mathematics course. This will 
-            allow you to take an elective course in another field. Your 
-            advisor and the mathematics program director will review your 
-            request for a waiver of the mathematics requirement or permission 
-            to take a course above MA130. If you change your major later, 
-            you will need to fulfill the mathematics requirement.           
-        </p>
-        <p component="nursing">
             If you are unable to do the above problems on your own, 
             you should decide whether MA100 <xref ref="ch-MR"/> or 
             MA123 Quantitative Literacy is the appropriate course for you. Choose
@@ -221,6 +212,17 @@ component="NG">
             you will have no electives in your nursing degree plan. Some of the skills 
             will be briefly reviewed in MA123, but with less depth and a faster pace 
             than in MA100. 
+    </p>
+    <p component="nursing">
+        If you are a nursing major and almost all the above problems seem easy for 
+        you, you might not be required to take a mathematics course and could be eligible 
+        to take a free elective instead. 
+        Since you will need to do similar problems in your nursing courses and
+        licensure exams, this waiver is only granted for students with exceptionally strong 
+        math backgrounds.  Your 
+        advisor and the mathematics program director will review your 
+        request for a waiver of the mathematics requirement. If you change your major later, 
+        you will need to fulfill the mathematics requirement to graduate.           
     </p>
     <p>
         NEXT STEP INSTRUCTIONS

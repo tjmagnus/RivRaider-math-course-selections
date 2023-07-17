@@ -59,13 +59,13 @@
 
     <xi:include href="ch-intro.ptx"/>
     <xi:include href="ch-MR.ptx"/>
-    <xi:include component="quant" href="ch-CA.ptx"/>
-    <!--The above did not work as desired.-->
+    <xi:include href="ch-CA.ptx"/>
     <xi:include href="ch-QL.ptx"/>
     <xi:include href="ch-Puzzles.ptx"/>
     <xi:include href="ch-GeoEx.ptx"/>
     <xi:include href="ch-Functions.ptx"/>
     <xi:include href="ch-above130.ptx"/>
+    <xi:include href="ch-FAQ.ptx"/>
     <xi:include href="ch-finished.ptx"/>
         
     <backmatter xml:id="backmatter">
