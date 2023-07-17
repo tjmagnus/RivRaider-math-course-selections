@@ -49,8 +49,8 @@ component="NG">
         <title>What will I learn in MA123 Quantitative Literacy?</title>
         <introduction>
             <p> 
-              At the end of MA123, you should be able to do the following. 
-              Calculators are allowed unless specified.
+              At the end of MA123 (not now!), you should be able to do the following. 
+              Calculators are allowed unless specified. 
             </p>
           </introduction>
           <exercise label="gas-price">
@@ -110,11 +110,11 @@ component="NG">
                         Write <m>64\%</m> as a simplified fraction.
                     </p>
                 </statement>
-                <!--<answer>
+                <answer>
                     <p>
                         <m>\frac{16}{25}</m>
                     </p>
-                </answer> -->
+                </answer> 
             </task> 
             <task>
                 <statement>
@@ -124,29 +124,38 @@ component="NG">
                         the following year, by what percent will your salary grow over the 
                         two-year period?  
                     </p>
+                    <p>Select from the following:
+                        <ol>
+                            <li>
+                                <p>
+                                   2.5 % 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                   4.5 % 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                   5.0 % 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                   7.5 % 
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
                 </statement>
-                <choices>
-                    <choice>
-                        <p> 2.5 percent
-                        </p>
-                    </choice>
-                    <choice correct="yes"> 
-                        <p>
-                            4.5 percent  
-                        </p>
-                    </choice>
-                    <choice>
-                        <p> 5 percent
-                        </p>
-                    </choice>
-                    <choice>
-                        <p> 7.5 percent
-                        </p>
-                    </choice>
-                </choices>
-                <!--</answer>
-                    <p> 4.5 percent </p>
-                </answer>-->
+                <answer>
+                    <p> 
+                        b. Your salary will grow by 4.5 percent. Note 
+                        that 5.0 percent is incorrect since percent
+                        growth is not additive. 
+                    </p>
+                </answer>
             </task>  
             <task> 
                 <statement>
@@ -169,11 +178,71 @@ component="NG">
         </exercise>
         <exercise>
             <title>Use scientific notation effectively</title>
-            <statement>
-                <p>
-                    LOOK AT WEBWORK FOR POSSIBLE PROBLEMS
-                </p>
-            </statement>
+            <task>
+                <statement>
+                    <p>
+                    Your calculator displays the number <m>5.147284E5</m> 
+                    or <m>5.147284\times 10^5</m>. Which of the following 
+                    best describes the magnitude of this number?
+                    <ol>
+                        <li>
+                            <p>
+                                The number is between 5 and 6.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The number is between 10 and 1000.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The number is between 50000 and 60000.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The number is between 500000 and 600000.
+                            </p>
+                        </li>
+                    </ol>
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        d. The number is 514,728.4. You should be able to 
+                        do this without a calculator.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Perform the following operations without a calculator.
+                        Express your answers in scientific notation.
+                        <ol>
+                            <li>
+                                <m>(4\times 10^6)\times (2\times 10^2)</m>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>(4\times 10^6)+(2\times 10^2)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\frac{4\times 10^6}{2\times 10^2}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    
+                    </p>
+                </statement>
+                <answer>
+                    (a) <m>8\times 10^8</m>; (b) <m>4.0002\times 10^6</m>;
+                    (c) <m>2\times 10^4</m>
+                </answer>
+            </task>
         </exercise>
         <exercise>
             <title>Use mathematics to make wise financial decisions</title>
@@ -187,9 +256,69 @@ component="NG">
             <title>Use two-way tables to analyze probabilities</title>
             <statement>
                 <p>
-                    LOOK AT WEBWORK FOR POSSIBLE PROBLEMS
+                    A positive test should indicate that a person 
+                    has the disease and a negative test should indicate 
+                    that a person does not have the disease. These tests  
+                    unfortunately are not 100% accurate. 
                 </p>
+                <p>
+                    The following table breaks down a sample of 100 people 
+                    who were tested for Disease L according to whether they had 
+                    Disease L and whether the test showed that they had the 
+                    disease. Use the table to answer the questions that follow:
+                </p>
+                <table>
+                    <title>Test results and incidence for a disease</title>
+                    <tabular halign="center">
+                      <row header="yes"> <!--bottom="minor"-->
+                        <cell> </cell>
+                        <cell>Disease present</cell>
+                        <cell>No disease</cell>
+                        <cell>Total</cell>
+                      </row>
+                      <row>
+                        <cell>Test indicated disease</cell>
+                        <cell>8</cell>
+                        <cell>2</cell>
+                        <cell>10</cell>
+                      </row>
+                      <row>
+                        <cell>Test did not indicate disease</cell>
+                        <cell>4</cell>
+                        <cell>86</cell>
+                        <cell>90</cell>
+                      </row>
+                      <row>
+                        <cell>Total</cell>
+                        <cell>12</cell>
+                        <cell>88</cell>
+                        <cell>100</cell>
+                      </row>
+                    </tabular>
+                  </table>
+                  <ol>
+                    <li>
+                        <p>
+                            If a patient's test indicates that 
+                            they have the disease, what is the 
+                            probability that they actually do not have 
+                            Disease L?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If a patient does not have Disease L,
+                            what is the probability that the test will 
+                            confirm that they do not have the disease?
+                        </p>
+                    </li>
+                  </ol>
             </statement>
+            <answer>
+                <p>
+                    (a) 20 percent; (b) 97.73 percent
+                </p>
+            </answer>
         </exercise>
         <exercise>
             <title>Recognize whether growth is linear or exponential and 
@@ -197,15 +326,34 @@ component="NG">
             </title>
             <statement>
                 <p>
-                    LOOK AT WEBWORK FOR POSSIBLE PROBLEMS
+                    A city in Texas had a population of 100000 
+                    in January 2020 and was growing at a rate of 6% 
+                    per year.
+                    <ol>
+                        <li>
+                            <p>
+                                What is the approximate doubling time 
+                                at this growth rate?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                If the growth rate were to continue, what 
+                                would the city's population be in 2050?
+                            </p>
+                        </li>
+                    </ol>
                 </p>
             </statement>
+            <answer>
+                <p>(a) approximately 11.9 years; (b) nearly 574,350 </p>
+            </answer>
         </exercise>
     </exercises>
     <conclusion>
         <p component="nursing">
             If you are unable to do the above problems on your own, 
-            you should decide whether MA100 <xref ref="ch-MR"/> or 
+            you should decide whether MA100 Math Refresher <xref ref="ch-MR"/> or 
             MA123 Quantitative Literacy is the appropriate course for you. Choose
             MA100 Math Refresher only if you need to develop skills in working with
             fractions, simplifying expressions, and solving linear equations. If you take MA100, 
