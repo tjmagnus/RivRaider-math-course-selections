@@ -15,7 +15,12 @@
         mathematics course regardless of your major—but it 
         does count toward the credits needed for graduation.  
     </p>
-      
+    <p>
+      There are no prerequisites for this course. 
+    </p>
+  </introduction>
+<section xml:id="MR-sec-topics">
+  <title>Topics in Math Refresher</title>
     <p>
         Topics include computations with signed numbers, 
         fractions, and exponents; reading and solving word 
@@ -29,14 +34,8 @@
         ready to take your general education mathematics
         course requirement without taking MA100. Read on!
       </p>
-
-      <p>
-        There are no prerequisites for this course. 
-      </p>
-    
-      </introduction>
       
-      <exercises> 
+      <exercises xml:id="MR-exer"> 
         <title>What will I learn in MA100 Math Refresher</title>
         <introduction>
           <p>
@@ -85,7 +84,7 @@
            Compute  <m>4(3+7)-8+5(2-3)=</m><var />.
           </p>
         </statement>
-          <setup>
+          <!--<setup>
             <var>
               <condition number="27">
                 <feedback>
@@ -109,12 +108,12 @@
                 </feedback>
               </condition>
             </var>
-          </setup>
-          <!-- <solution>
+          </setup>-->
+          <answer>
           <p>
             <m>27</m>.
           </p>
-        </solution> -->
+          </answer>
         </exercise>
         <exercise>
           <title>Simplify algebraic expressions</title>
@@ -171,12 +170,12 @@
           <solution>
             <p>
               The slope is <m>0.5</m>, the <m>y</m>-intercept is <m>4</m>, and the <m>x</m>-intercept is <m>-8</m>.
+            </p>  
             <image source="dspdesmoslinegraph" width="70%">
             <description>
               The graph of a line that passes through (0,4), (2,5), and (6,7)
             </description>
             </image>
-            </p>
           </solution>
         </exercise>
         <exercise>
@@ -196,6 +195,7 @@
           <title>Multiply and factor polynomials</title>
           <statement>
             <p>
+              <ol>
               <li>
                 <p>
                   Expand <m>(x+3)(x-2)-5(x+6)</m> and gather like terms.
@@ -206,6 +206,7 @@
                   Factor <m>3x^2-300</m> completely.
                 </p>
               </li>
+              </ol>
             </p>
           </statement>
           <solution>
@@ -227,5 +228,5 @@
           </p>
         </conclusion>
       </exercises>
-
+    </section>
 </chapter>

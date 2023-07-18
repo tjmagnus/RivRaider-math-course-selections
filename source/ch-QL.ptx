@@ -31,9 +31,9 @@ component="NG">
     </p>
     <p component="gen-ed">
         Other courses that may be used to fulfill the general education mathematics 
-        requirement are MA126 Puzzles, Patterns, and Probability <xref ref="ch-Puzzles"/>, 
-        MA127 Geometrical Explorations <xref ref="ch-GeoEx"/>, and MA130 Functions  
-        <xref ref="ch-Functions"/>. Click on the links to learn more about these courses.
+        requirement are <xref ref="ch-Puzzles"<MA126 Puzzles, Patterns, and Probability</xref>, 
+        <xref ref="ch-GeoEx">MA127 Geometrical Explorations</xref>, and  
+        <xref ref="ch-Functions">MA130 Functions</xref>. Click on the links to learn more about these courses.
     </p>
     <p>
         The prerequisite for MA123 and other mathematics courses is the ability to perform 
@@ -350,6 +350,11 @@ component="NG">
             </answer>
         </exercise>
     </exercises>
+    <section xml:id="QL-sect-ready">
+        <p>
+            ADD HERE
+        </p>
+    </section>
     <conclusion>
         <p component="nursing">
             If you are unable to do the above problems on your own, 
