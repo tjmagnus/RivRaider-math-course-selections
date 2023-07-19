@@ -12,8 +12,10 @@
         MA100 does 
         not fulfill the general education mathematics 
         requirement--you will need to take a second 
-        mathematics course regardless of your major—but it 
-        does count toward the credits needed for graduation.  
+        mathematics course regardless of your major—but the 
+        does contribute toward the total number of  
+        credits needed for graduation taking the place of a 
+        general elective.  
     </p>
     <p>
       There are no prerequisites for this course. 
@@ -22,7 +24,7 @@
 <section xml:id="MR-sec-topics">
   <title>Topics in Math Refresher</title>
     <p>
-        Topics include computations with signed numbers, 
+        Topics in MA100 include computations with signed numbers, 
         fractions, and exponents; reading and solving word 
         problems; using algebraic properties to simplify 
         expressions and solve equations; graphing and 
@@ -30,7 +32,7 @@
         of two equations in two unknowns. Sample problems
         that you should be able to do at the end of the 
         semester are given in the next section. If you are
-        able to do these problems now, you may be ready to 
+        able to do these problems now, you should be ready to 
         ready to take your general education mathematics
         course requirement without taking MA100. Read on!
       </p>
@@ -220,54 +222,55 @@
       <section xml:id="MR-sec-next">
         <title>Next Steps</title>
           <p>
-            If you do not feel comfortable completing the above problems on your own, then MA100 is probably the
-            right course for you. Return to the Directed Self-Placement and select MA100. On the other hand, if you
-            were able to complete 80% of the problems with only minor errors and without assistance, 
-            you probably are ready for 
+            If you do not feel comfortable completing the above problems 
+            on your own, then MA100 is probably the
+            right course for you. Return to the Directed Self-Placement 
+            and select MA100. On the other hand, if you
+            were able to complete 80% of the problems with only minor errors 
+            and without assistance, you probably are ready for 
             a different course. 
           </p>
             <p component="nursing">
               Nursing majors who have the skills described above should 
-              consider enrolling in <xref ref="ch-QL" text="custom">
-              Quantitative Literacy</xref>. 
+              consider enrolling in <xref ref="ch-QL" text="title"/>. 
             </p> 
             <p component="quant">
               Students considering a major in a quantitative field such as mathematics, cybersecurity,
               biology, computer science, exercise science, or who hope to apply to medical, dental,
               veterinary, or engineering graduate programs should look at 
-              evaluate their readiness for <xref ref="ch-CA" text="custom">MA112 College Algebra</xref>
-              or <xref ref="ch-Functions" text="custom">MA130 Functions</xref>, or a course
+              evaluate their readiness for <xref ref="ch-CA" text="title"/>
+              or <xref ref="ch-Functions" text="title"/>, or a course
                 <xref ref="ch-above130" text="custom">above MA130</xref>.
             </p>
             <p component="educ">
-            Education majors who can perform the skills in MA100 Math 
-            Refresher may choose among several courses to satisfy the 
-            general education requirement. The course <xref ref="ch-GeoEx" 
-            text="custom">MA127 Geometrical Explorations</xref> is designed 
-            to strengthen the geometry skills needed to pass the licensure 
-            exam, to deepen teachers' understanding of the geometry they will  
-            teach, and to experience different ways of teaching. The course 
-            <xref ref="ch-Puzzles" text="custom"> MA126 Puzzles, Patterns, and Probability</xref>
-            introduces students to some of the great ideas of mathematics beyond 
-            throughout history and explores number systems, infinity, and probability,
-            all of which are beneficial for a teacher of mathematics. Students
-            who may choose mathematics as their speciality may opt to begin
-            with <xref ref="ch-Functions" text="custom">MA130 Functions</xref>. 
+              Education majors who can perform the skills in MA100 Math 
+              Refresher may choose among several courses to satisfy the 
+              general education requirement. The course <xref ref="ch-GeoEx" 
+              text="title"/> is designed 
+              to strengthen the geometry skills needed to pass the licensure 
+              exam, to deepen teachers' understanding of the geometry they will  
+              teach, and to experience different ways of teaching. The course 
+              <xref ref="ch-Puzzles" text="title"/>
+              introduces students to some of the great ideas of mathematics beyond 
+              throughout history and explores number systems, infinity, and probability,
+              all of which are beneficial for a teacher of mathematics. Students
+              who may choose mathematics as their speciality may opt to begin
+              with <xref ref="ch-Functions" text="title"/>. 
             </p>
             <p component="gen-ed"> 
             Students who can perform the skills above may choose among several 
             courses that satisfy the general education requirement: The course 
-            <xref ref="ch-QL" text="custom">Quantitative Literacy</xref>
+            <xref ref="ch-QL" text="title"/>
             focuses on the mathematics used in making financial and civic decisions.
             The course 
-            <xref ref="ch-Puzzles" text="custom"> MA126 Puzzles, Patterns, and Probability</xref>
+            <xref ref="ch-Puzzles" text="title"/>
             introduces students to some of the great ideas of mathematics beyond 
             throughout history and explores number systems, infinity, and probability. 
-            <xref ref="ch-GeoEx" text="custom">MA127 Geometrical Explorations</xref>
+            <xref ref="ch-GeoEx" text="title"/>
             encourages students to discover and uncover geometic patterns and 
             understand more deeply geometric ideas, including its appearance in art 
             nature. Students interested in a quantitative field may check their 
-            readiness for <xref ref="ch-Functions" text="custom">MA130 Functions</xref>.
+            readiness for <xref ref="ch-Functions" text="title"/>.
           </p>
         </section>
 </chapter>

@@ -8,18 +8,18 @@
       to assist you in selecting your initial mathematics course. 
     </p>
     <p>
-      Before you were directed to this document, a course was probably 
+      As you were directed to this document, a course was probably 
       recommended for you based on your degree program and your mathematical 
       background. <!--Add something here about how to access the survey--> 
-      You are encouraged to look at the description, learning outcomes, 
-      and prerequisite skills for that course to verify that you 
-      were appropriately placed. If the course looks too easy 
-      or too challenging for you, follow the links or use the sidebar 
+      If you have not already done so, you are encouraged to look at the description, learning outcomes, 
+      and prerequisite skills for the recommended course to verify that you 
+      were appropriately placed. If the recommended course looks too easy 
+      or too challenging for you, follow the links or use the sidebar on the left
       to explore 
       other options recommended for your major. 
       If you were directed to this document via the Directed Self-Placement 
       Survey, you should 
-      return to the survey after making your selection to record this  
+      return to the survey after making your selection to record your  
       decision and answer a few follow-up questions. Your advisor will look at your selection as well as your initial recommendation
       and use this information to develop your schedule.
       </p>
@@ -42,9 +42,10 @@
       the semester. You are not expected to be able to do these problems 
       yet. If you can do them all, you will likely become bored and 
       unmotivated which often leads to low grades in the course. Why spend 
-      your tuition to relearn something you have mastered? It is okay if 
-      you can do some of the learning objectives so long as there are enough 
-      others to keep you engaged.
+      your tuition to relearn something you have mastered? More likely, you 
+      will find that 
+      you can do some of the learning outcomes in your ideal course but there
+      there are enough new or unmastered outcomes to keep you engaged.
       </p>   
       <p>
       Studying mathematics can be challenging due to the fact that 
@@ -52,8 +53,9 @@
       all students and are happy to help students outside of class, 
       they cannot slow down a course to meet the needs 
       of a student who overstated their abilities. Rivier University 
-      offers a single course, <xref ref="ch-MR" text="custom">MA100 Math Refresher</xref> 
-      for students who would like to improve their basic algebra skills. 
+      offers a single course, <xref ref="ch-MR" text="title"/> 
+      for students who would benefit by improving their basic algebra skills
+      before enrolling in their general-education math course. 
       Students who question their ability to perform these skills 
       are encouraged to use the problems in <xref ref="MR-exer"/> to self-assess 
       their readiness for further coursework.   
@@ -64,18 +66,18 @@
     <p component="gen-ed">  
       Students not majoring in nursing, education, or a quantitative
       field may choose from a broader selection of courses. Some courses focus 
-      on skill-building and applying mathematical content while 
-      others may develop your problem-solving, reasoning, or technical 
-      communication skills.  
+      on skill-building and applying mathematical content while others may 
+      broaden your view on what mathematics is.
+      Every mathematics course aims to develop your problem-solving, reasoning, 
+      and technical communication skills; there's more to mathematics than computation.  
       These courses can contribute to your academic, professional, 
       and personal goals as you develop higher-level thinking skills and 
       mathematical habits of mind. You may be headed toward a career or 
-      graduate program where Functions ande Calculus would enhance your 
+      graduate program where Functions and Calculus would enhance your 
       resume or you may benefit from discovering how mathematics underlies 
       games, art, and other 
-      less technical pursuits. In reality, most mathematics courses touch on 
-      all of these in some way, but the table below gives an indication of 
-      what is emphasized in each course.
+      less technical pursuits. The table below gives an indication of 
+      what may be encountered in each course.
     </p>
     <p component="educ">
       Students majoring in education will want to consider how their choice 
@@ -85,23 +87,23 @@
       mathematics courses encourage communication skills and creative and 
       logical thinking all of which will  
       enhance your teaching. One course, 
-      <xref ref="ch-GeoEx" text="custom">MA127 Geometrical Explorations</xref> 
+      <xref ref="ch-GeoEx" text="title"/> 
       has been designed to meet the needs of 
       elementary and early childhood education majors. It covers and delves  
       deeper into the geometry concepts taught in the K-8 setting while 
       encouraging curiosity and discovery. In addition, education majors may 
       choose mathematics as their area of specialization. To complete this specialization,
       six courses in mathematics, normally MA110 Introductory Statistics, 
-      <xref ref="ch-GeoEx" text="custom">MA127 Geometrical Exploration</xref>,
-      <xref ref="ch-Functions" text="custom">MA130 Functions</xref>, 
+      <xref ref="ch-GeoEx" text="title"/>,
+      <xref ref="ch-Functions" text="title"/>, 
       MA165 Calculus I,  
       a course above 200, and 
-      one additional course like <xref ref="ch-Puzzles" text="custom">
-        MA126 Puzzles, Patterns, and Probability</xref>. 
-      Highly prepared students may request permission 
-      to take higher-level alternatives. Each course encourages the development of mathematical 
+      one additional course like <xref ref="ch-Puzzles" text="title"/>. 
+      Highly-prepared students may request permission 
+      to take higher-level alternatives. Each of these courses encourage 
+      the development of mathematical 
       practices as well as content knowledge. The table below gives an indication of 
-      what is emphasized in each entry-level mathematics course that satisfies the core requirement.
+      what is emphasized in each mathematics course.
     </p>
       <table component="EG">
         <title>Comparison of Core-Satisfying Mathematics Courses</title>
@@ -115,7 +117,7 @@
             <cell>Visual or Tactile</cell>
           </row>
           <row component="NG">
-            <cell><xref ref="ch-QL" text="custom">MA123</xref></cell>
+            <cell><xref ref="ch-QL" text="title"/></cell>
             <cell>yes</cell>
             <cell>yes</cell>
             <cell>some</cell>
@@ -123,7 +125,7 @@
             <cell>no</cell>
           </row>
           <row>
-            <cell><xref ref="ch-Puzzles" text="custom">MA126</xref></cell>
+            <cell><xref ref="ch-Puzzles" text="title"/></cell>
             <cell>some</cell>
             <cell>some</cell>
             <cell>yes</cell>
@@ -131,7 +133,7 @@
             <cell>some</cell>
           </row>
           <row>
-            <cell><xref ref="ch-GeoEx" text="custom">MA127</xref></cell>
+            <cell><xref ref="ch-GeoEx" text="title"/></cell>
             <cell>some</cell>
             <cell>some</cell>
             <cell>yes</cell>
@@ -139,7 +141,7 @@
             <cell>yes</cell>
           </row>
           <row>
-            <cell><xref ref="ch-Functions" text="custom">MA130</xref></cell>
+            <cell><xref ref="ch-Functions" text="title"/></cell>
             <cell>yes</cell>
             <cell>yes</cell>
             <cell>some</cell>
@@ -157,23 +159,35 @@
         </tabular>
       </table>
     </section>
-
-    <p component="nursing">
-
-    </p>
-    <!--<section>
-    <p>
-      Rivier University students are required to take at least 
-      one mathematics course at the level of MA112 or 
-      above. The mathematics courses satisfying this requirement 
-      encourage students to move beyond basic skills 
-      and algorithms and enables them to apply mathematics to 
-      solving problems in various fields. Students will 
-      see how mathematics can be used to discern truth, explore 
-      beauty, and understand our world and they will 
-      be encouraged to think in ways that a computer cannot, 
-      making them more valuable in today’s world. 
-    </p>
-    </section>-->
+   
+    <section xml:id="intro-sec-nursing-options" component="nursing">
+        <title>Recommended Mathematics Courses for Nursing Majors</title>
+      <p>
+        The course <xref ref="ch-QL" text="title"/> focuses on mathematical 
+        concepts and procedures that are useful in the field of nursing. Students 
+        who can perform the skills in <xref ref="ch-MR" text="title"/> are 
+        encouraged to enroll in <xref ref="ch-QL" text="title"/>. Nursing majors
+        who have a strong mathematical background and can confidently solve the 
+        problems in <xref ref="exercises-MA123"/>
+        should contact their <url href="mailto:asktheadvisor@rivier.edu" 
+        visual="asktheadvisor@rivier.edu">academic advisor</url>
+        for guidance. 
+      </p>
+    </section>
+    <section xml:id="intro-sec-quant-options" component="quant">
+      <title>Recommended Mathematics Courses for Quantitative Majors</title>
+      <p>
+        If you are majoring in mathematics, biology, cybersecurity management,
+        exercise science, or considering graduate study in medicine, 
+        veterinary medicine, computer science, or engineering, you should 
+        should determine which of the following courses matches your level 
+        of preparedness: <xref ref="ch-Functions" text="title"/>, 
+        <xref ref="ch-CA" text="title"/>, or <xref ref="ch-MR" text="title"/>.
+        If you have a strong background in Calculus, trigonometry, exponential,
+        and logarithmic functions, you may be ready for a course
+        <xref ref="ch-above130" text="custom">beyond MA130</xref>. Follow the 
+        links to explore these options. 
+      </p>
+    </section>
    
   </chapter>

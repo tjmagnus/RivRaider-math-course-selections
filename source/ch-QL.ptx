@@ -248,9 +248,38 @@ component="NG">
             <title>Use mathematics to make wise financial decisions</title>
             <statement>
                 <p>
-                    LOOK AT WEBWORK FOR POSSIBLE PROBLEMS
+                    <ol>
+                        <li>    
+                            <p>
+                                Prorate income sources and expenses to 
+                                monthly and determine the net monthly income 
+                                or loss for an individual.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Determine whether an insurance policy would be 
+                                a good deal by weighing the overall cost of the policy
+                                against estimated out-of-pocket expenses without a policy.
+                            </p> 
+                        </li>
+                        <li>
+                            <p>
+                                Argue whether it is better, both financially and 
+                                economically, to trade your old car for a new one.
+                            </p>
+                        </li>
+                    </ol>
                 </p>
             </statement>
+            <hint>
+                <p>
+                Answering these questions would require more information 
+                that is given here. These examples are included to illustrate 
+                how many of the problems in this course involve more research 
+                and reasoning and connections to our daily life.
+                </p>
+            </hint>
         </exercise>
         <exercise>
             <title>Use two-way tables to analyze probabilities</title>
@@ -350,17 +379,17 @@ component="NG">
             </answer>
         </exercise>
     </exercises>
-    <section xml:id="QL-sect-ready">
+    <!--<section xml:id="QL-sect-ready">
         <p>
             ADD HERE
         </p>
-    </section>
+    </section>-->
     <conclusion>
         <p component="nursing">
             If you are unable to do the above problems on your own, 
-            you should decide whether MA100 Math Refresher <xref ref="ch-MR"/> or 
+            you should decide whether <xref ref="ch-MR" text="title"/> or 
             MA123 Quantitative Literacy is the appropriate course for you. Choose
-            MA100 Math Refresher only if you need to develop skills in working with
+            <xref ref="ch-MR" text="title"/> only if you need to develop skills in working with
             fractions, simplifying expressions, and solving linear equations. If you take MA100, 
             you will have no electives in your nursing degree plan. Some of the skills 
             will be briefly reviewed in MA123, but with less depth and a faster pace 
@@ -372,8 +401,9 @@ component="NG">
         to take a free elective instead. 
         Since you will need to do similar problems in your nursing courses and
         licensure exams, this waiver is only granted for students with exceptionally strong 
-        math backgrounds.  Your 
-        advisor and the mathematics program director will review your 
+        math backgrounds. Your <url href="mailto:asktheadvisor@rivier.edu" 
+        visual="asktheadvisor@rivier.edu">academic advisor</url> 
+        and the mathematics program director will review your 
         request for a waiver of the mathematics requirement. If you change your major later, 
         you will need to fulfill the mathematics requirement to graduate.           
     </p>

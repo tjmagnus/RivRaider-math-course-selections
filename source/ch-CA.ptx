@@ -8,7 +8,8 @@
         MA112 College Algebra reviews and strengthens a student’s 
         algebraic skills in preparation for MA130 Functions. Although it 
         counts as the Rivier University general education mathematics core 
-        requirement, the Mathematics Program does not recommend MA112 as a final mathematics course. In 
+        requirement, the Mathematics Program does not recommend MA112 as a 
+        final mathematics course. In 
         addition, MA112 is typically 
         not accepted for transfer at other colleges. You should only enroll
         in MA112 if you are considering taking MA130 Functions in the future.
@@ -242,11 +243,15 @@
         </exercise>
         <conclusion>
           <p>
-            If you feel comfortable completing most of the above problems on your own with only minor errors, 
-            then you should be ready to enroll in MA130 Functions which is described in <xref ref="ch-Functions"/>.
-            If you had difficulty even starting most of the problems, you might want to look at  
-            <xref ref="ch-MR" text="custom">MA100 Math Refresher</xref>
-            to strengthen the mathematical skills needed for MA112 College Algebra and other 
+            If you feel comfortable completing most of the above 
+            problems on your own with only minor errors, 
+            then you should be ready to enroll in 
+            <xref ref="ch-Functions" text="title"/>.
+            If you had difficulty even starting most of the problems, 
+            you might want to look at  
+            <xref ref="ch-MR" text="title"/>
+            to strengthen the mathematical skills needed for 
+            MA112 College Algebra and other 
             courses. If you are able to do most of the problems in <xref ref="ch-MR" text="custom">MA100 Math Refresher</xref> but not many of the problems
             on this page, MA112 College Algebra is the right course for you.
             </p>
