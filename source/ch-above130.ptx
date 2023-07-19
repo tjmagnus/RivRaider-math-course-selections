@@ -32,7 +32,8 @@ component="QEG">
         visual="asktheadvisor@rivier.edu">academic advisor</url> to 
         get the credit awarded and discuss schedule and degree plan 
         options. Students who are waiting on their scores are 
-        encouraged to enroll in <xref ref="ch-Functions"/> MA130 Functions 
+        encouraged to enroll in <xref ref="ch-Functions" text="custom">
+          MA130 Functions</xref> 
         now to reserve a seat and then to adjust their 
         schedule once scores are available.
     </p>

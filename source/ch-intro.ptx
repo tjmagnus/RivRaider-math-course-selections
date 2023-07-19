@@ -52,10 +52,10 @@
       all students and are happy to help students outside of class, 
       they cannot slow down a course to meet the needs 
       of a student who overstated their abilities. Rivier University 
-      offers a single course, <xref ref="ch-MR">MA100 Math Refresher</xref> 
+      offers a single course, <xref ref="ch-MR" text="custom">MA100 Math Refresher</xref> 
       for students who would like to improve their basic algebra skills. 
       Students who question their ability to perform these skills 
-      are invited to try the problems <xref ref="MR-exer"/> to self-assess 
+      are encouraged to use the problems in <xref ref="MR-exer"/> to self-assess 
       their readiness for further coursework.   
       </p>
     </section>
@@ -85,18 +85,19 @@
       mathematics courses encourage communication skills and creative and 
       logical thinking all of which will  
       enhance your teaching. One course, 
-      <xref ref="ch-GeoEx">MA127 Geometrical Explorations</xref> 
+      <xref ref="ch-GeoEx" text="custom">MA127 Geometrical Explorations</xref> 
       has been designed to meet the needs of 
       elementary and early childhood education majors. It covers and delves  
       deeper into the geometry concepts taught in the K-8 setting while 
       encouraging curiosity and discovery. In addition, education majors may 
       choose mathematics as their area of specialization. To complete this specialization,
       six courses in mathematics, normally MA110 Introductory Statistics, 
-      <xref ref="ch-GeoEx">MA127 Geometrical Exploration</xref>,
-      <xref ref="ch-Functions">MA130 Functions</xref>, 
+      <xref ref="ch-GeoEx" text="custom">MA127 Geometrical Exploration</xref>,
+      <xref ref="ch-Functions" text="custom">MA130 Functions</xref>, 
       MA165 Calculus I,  
       a course above 200, and 
-      one additional course like <xref ref="ch-Puzzles">MA126 Puzzles, Patterns, and Probability</xref>. 
+      one additional course like <xref ref="ch-Puzzles" text="custom">
+        MA126 Puzzles, Patterns, and Probability</xref>. 
       Highly prepared students may request permission 
       to take higher-level alternatives. Each course encourages the development of mathematical 
       practices as well as content knowledge. The table below gives an indication of 
@@ -114,7 +115,7 @@
             <cell>Visual or Tactile</cell>
           </row>
           <row component="NG">
-            <cell><xref ref="ch-QL">MA123</xref></cell>
+            <cell><xref ref="ch-QL" text="custom">MA123</xref></cell>
             <cell>yes</cell>
             <cell>yes</cell>
             <cell>some</cell>
@@ -122,7 +123,7 @@
             <cell>no</cell>
           </row>
           <row>
-            <cell><xref ref="ch-Puzzles">MA126</xref></cell>
+            <cell><xref ref="ch-Puzzles" text="custom">MA126</xref></cell>
             <cell>some</cell>
             <cell>some</cell>
             <cell>yes</cell>
@@ -130,7 +131,7 @@
             <cell>some</cell>
           </row>
           <row>
-            <cell><xref ref="ch-GeoEx">MA127</xref></cell>
+            <cell><xref ref="ch-GeoEx" text="custom">MA127</xref></cell>
             <cell>some</cell>
             <cell>some</cell>
             <cell>yes</cell>
@@ -138,7 +139,7 @@
             <cell>yes</cell>
           </row>
           <row>
-            <cell><xref ref="ch-Functions">MA130</xref></cell>
+            <cell><xref ref="ch-Functions" text="custom">MA130</xref></cell>
             <cell>yes</cell>
             <cell>yes</cell>
             <cell>some</cell>

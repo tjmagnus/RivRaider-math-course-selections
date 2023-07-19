@@ -33,8 +33,10 @@
         equations, work with exponents and radicals, compute the slope
         and give an equation of a line through two points, and work with functional 
         notation. Sample prerequisite problems may be viewed at 
-        <xref ref="ch-CA"/> and will help you gage your readiness for 
-        MA130. If most of these algebra problems in <xref ref="ch-CA"/> are 
+        <xref ref="ch-CA" text="custom">MA112 College Algebra</xref> and 
+        will help you gage your readiness for 
+        MA130. If most of these algebra problems in <xref ref="ch-CA" text="custom">
+        MA112 College Algebra<\xref> are 
         difficult for you, you might want to begin in MA112 instead of MA130.   
     </p>
     </introduction>

@@ -122,11 +122,14 @@
         or have decided on another mathematics course,
         you may return to the Directed Self-Placement Tools and record your selection.
         If you would like to explore other options, for completing your mathematics  
-        requirement, you may look at MA123 Quantitative Literacy <xref ref="ch-QL"/>, MA126 
-        Puzzles, Patterns, and Probabilities <xref ref="ch-Puzzles"/>,
-         or MA130 Functions <xref ref="ch-Functions"/>. If you 
+        requirement, you may look at 
+        <xref ref="ch-QL" text="custom">MA123 Quantitative Literacy</xref>, 
+        <xref ref="ch-Puzzles" text="custom">MA126 
+        Puzzles, Patterns, and Probabilities</xref>,
+         or <xref ref="ch-Functions" text="custom">MA130 Functions</xref>. If you 
         are concerned about your readiness for these mathematics courses, you may explore 
-        MA100 Math Refresher <xref ref="ch-MR"/> as an option before making your decision.
+        <xref ref="ch-MR" text="custom">MA100 Math Refresher</xref> as 
+        an option before making your decision.
     </p> 
     </section>
 </chapter>
