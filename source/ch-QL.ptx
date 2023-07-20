@@ -3,56 +3,67 @@
 <chapter xml:id="ch-QL" xmlns:xi="http://www.w3.org/2001/XInclude"
 component="NG">
     <title>MA123 Quantitative Literacy</title>
-  <introduction>
-    <p>
-        In Quantitative Literacy, you will learn how to read, 
-        understand, and interpret the numerical data that 
-        permeates our lives. You will apply problem-solving 
-        skills to make financial decisions, use proportional 
-        reasoning to convert units, apply your knowledge of 
-        percentages to multistage processes, apply the appropriate 
-        amount of precision in making claims, recognize the 
-        difference between linear and exponential growth, and 
-        use two-way tables to analyze false negatives and false 
-        positives. You will become aware of how mathematics may 
-        be used by others to mislead you and how to ensure that 
-        you are interpreting and presenting your results 
-        honestly and accurately.
-    </p>
-    <p component="gen-ed">
-        If you are not majoring in Nursing, Education, or a quantitative 
-        field, you have freedom in selecting the mathematics course 
-        to satisfy your general education requirement.
-        The course described here focuses on applying your algebra skills 
-        to every day life decisions. For some students, this is an ideal course as
-        they gain useful tools and appreciate math through its application. Other students may 
-        already be familiar with these applications and find this course to 
-        be less useful. Read on to see and try sample problems.
-    </p>
-    <p component="gen-ed">
-        Other courses that may be used to fulfill the general education mathematics 
-        requirement are <xref ref="ch-Puzzles" text="custom">MA126 Puzzles, Patterns, and Probability</xref>, 
-        <xref ref="ch-GeoEx" text="custom">MA127 Geometrical Explorations</xref>, and  
-        <xref ref="ch-Functions" text="custom">MA130 Functions</xref>. Click on the links to learn more about these courses.
-    </p>
-    <p>
-        The prerequisite for MA123 and other mathematics courses is the ability to perform 
-        basic arithmetic and algebraic skills, to solve linear
-        equations and simplify expressions, and to work with 
-        fractions, decimals, and percents. Students needing 
-        significant strengthening of these skills are encouraged to 
-        consider starting in MA100 Math Refresher. A more detailed 
-        description of MA100 with sample problems is available in <xref ref="ch-MR"/>.  
-    </p>
-  </introduction>
-    <exercises xml:id="exercises-MA123">
+    <introduction>
+        <p>
+            In Quantitative Literacy, you will learn how to read, 
+            understand, and interpret the numerical data that 
+            permeates our lives. You will apply problem-solving 
+            skills to make financial decisions, use proportional 
+            reasoning to convert units, apply your knowledge of 
+            percentages to multistage processes, apply the appropriate 
+            amount of precision in making claims, recognize the 
+            difference between linear and exponential growth, and 
+            use two-way tables to analyze false negatives and false 
+            positives. You will become aware of how mathematics may 
+            be used by others to mislead you and how to ensure that 
+            you are interpreting and presenting your results 
+            honestly and accurately.
+        </p>
+        <p component="gen-ed">
+            f you are not majoring in Nursing, Education, or a quantitative 
+            field, you have freedom in selecting the mathematics course 
+            to satisfy your general education requirement.
+            The course described here focuses on applying your algebra skills 
+            to every day life decisions. For some students, this is an ideal course as
+            they gain useful tools and appreciate math through its application. Other students may 
+            already be familiar with these applications and find this course to 
+            be less useful. Read on to see and try sample problems.
+        </p>
+        <p component="gen-ed">
+            Other courses that may be used to fulfill the general education mathematics 
+            requirement are <xref ref="ch-Puzzles" text="custom">MA126 Puzzles, Patterns, and Probability</xref>, 
+            <xref ref="ch-GeoEx" text="custom">MA127 Geometrical Explorations</xref>, and  
+            <xref ref="ch-Functions" text="custom">MA130 Functions</xref>. Click on the links to learn more about these courses.
+        </p>
+    </introduction>
+    <section xml:id="QL-sect-ready">
+        <title>Am I ready for MA123 Quantitative Literacy?</title>
+        <p>
+            Before taking MA123, students will be expected to have prior proficiency in 
+            performing operations on fractions, simplifying algebraic expressions, 
+            solving linear equations, and working with percents and decimals. 
+            Normally, the use of 
+            a calculator is allowed in this course, but students need to 
+            be able to convert word problems to algebraic expressions, 
+            recognize which variable is the one to solve for.
+            Students needing 
+            significant strengthening of these skills are encouraged to 
+            consider starting in <xref ref="ch-MR" text="title"/>. 
+            To test your readiness for MA123, you are encouraged to 
+            attempt the problems in <xref ref="MR-exer"/>. You do not need 
+            to be able to do the problems below in <xref ref="sec-MA123-LO"/>; 
+            you will learn these skills and concepts
+            during the course.
+        </p>
+    </section>
+    <section xml:id="sec-MA123-LO">
         <title>What will I learn in MA123 Quantitative Literacy?</title>
-        <introduction>
-            <p> 
-              At the end of MA123 (not now!), you should be able to do the following. 
-              Calculators are allowed unless specified. 
-            </p>
-          </introduction>
+        <p> 
+            At the end of MA123 (not now!), you should be able to do the following. 
+            Calculators are allowed unless specified. 
+          </p>
+    <exercises xml:id="exercises-MA123">
+        <!--<title>What will I learn in MA123 Quantitative Literacy?</title>-->
           <exercise label="gas-price">
             <title>Reasoning proportionally and convert between units</title>
             <statement>
@@ -379,36 +390,57 @@ component="NG">
             </answer>
         </exercise>
     </exercises>
-    <!--<section xml:id="QL-sect-ready">
+    </section>
+    <section xml:id="sec-QL-next-nursing" component="nursing">
+        <title>Next Steps</title>
         <p>
-            ADD HERE
-        </p>
-    </section>-->
-    <conclusion>
-        <p component="nursing">
-            If you are unable to do the above problems on your own, 
+            If you cannot do the problems in <xref ref="exercises-MA123"/>
+             on your own, 
             you should decide whether <xref ref="ch-MR" text="title"/> or 
             MA123 Quantitative Literacy is the appropriate course for you. Choose
             <xref ref="ch-MR" text="title"/> only if you need to develop skills in working with
             fractions, simplifying expressions, and solving linear equations. If you take MA100, 
-            you will have no electives in your nursing degree plan. Some of the skills 
+            you will have no other electives in your nursing degree plan. Some skills 
             will be briefly reviewed in MA123, but with less depth and a faster pace 
             than in MA100. 
+        </p>
+        <p>
+            Do you have a strong mathematics background? If you are a nursing major and can 
+            complete nearly all of the 
+            problems in <xref ref="exercises-MA123"/> on your own, 
+            you might not be required to take a mathematics course and could be eligible 
+            to take a free elective instead. 
+            Since you will need to do problems similar to <xref ref="exercises-MA123"/>
+            in your nursing courses and
+            licensure exams, this waiver is only granted for students with exceptionally strong 
+            math backgrounds. Your <url href="mailto:asktheadvisor@rivier.edu" 
+            visual="asktheadvisor@rivier.edu">academic advisor</url> 
+            and the mathematics program director will review your 
+            request for a waiver of the mathematics requirement. If you change your major later, 
+            you will need to fulfill the mathematics requirement to graduate.           
+        </p>
+        <p>
+            Once you have determined whether MA123 Quantitative Literacy, 
+            MA100 Math Refresher is the better choice for you, return to the 
+            Directed Self-Placement Survey to record your selection. If you 
+            believe that you qualify for a waiver, select "Course above MA130" 
+            on the Directed Self-Placement Survey.
+        </p>
+    </section>
+    <section component="gen-ed">
+        <title>Next Steps</title>
+        <p>
+        If you are ready to sign up for MA123 Quantitative Literacy  
+        or have decided on another mathematics course,
+        you may return to the Directed Self-Placement Tools and record your selection.
+        If you would like to explore other options, for completing your mathematics  
+        requirement, you may look at  
+        <xref ref="ch-Puzzles" text="title"/>,
+         or <xref ref="ch-Functions" text="title"/>. If you 
+        are concerned about your readiness for these mathematics 
+        courses, you may explore 
+        <xref ref="ch-MR" text="title"/> as 
+        an option before making your decision.
     </p>
-    <p component="nursing">
-        If you are a nursing major and almost all the above problems seem easy for 
-        you, you might not be required to take a mathematics course and could be eligible 
-        to take a free elective instead. 
-        Since you will need to do similar problems in your nursing courses and
-        licensure exams, this waiver is only granted for students with exceptionally strong 
-        math backgrounds. Your <url href="mailto:asktheadvisor@rivier.edu" 
-        visual="asktheadvisor@rivier.edu">academic advisor</url> 
-        and the mathematics program director will review your 
-        request for a waiver of the mathematics requirement. If you change your major later, 
-        you will need to fulfill the mathematics requirement to graduate.           
-    </p>
-    <p>
-        NEXT STEP INSTRUCTIONS
-    </p>
-    </conclusion>
+</section>
 </chapter>

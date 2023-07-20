@@ -21,9 +21,9 @@
       There are no prerequisites for this course. 
     </p>
   </introduction>
-<section xml:id="MR-sec-topics">
-  <title>Topics in Math Refresher</title>
-    <p>
+  <section xml:id="MR-sec-topics">
+    <title>Topics in Math Refresher</title>
+      <p>
         Topics in MA100 include computations with signed numbers, 
         fractions, and exponents; reading and solving word 
         problems; using algebraic properties to simplify 
@@ -36,132 +36,157 @@
         ready to take your general education mathematics
         course requirement without taking MA100. Read on!
       </p>
-      
-      <exercises xml:id="MR-exer"> 
-        <title>What will I learn in MA100 Math Refresher</title>
+    <exercises xml:id="MR-exer"> 
+      <title>What will I learn in MA100 Math Refresher</title>
         <introduction>
           <p>
             At the end of MA100, you should be able to do the following:
           </p>
         </introduction>
-        <exercise>
-        <title>Perform operations of addition, subtraction, multiplication, and 
-        division with signed numbers and fractions</title>
-        <statement>
-          <p>
-            Compute the following without a calculator 
-          </p>
-          <ol cols="3">
-            <li>
-              <p>
-                <m>\frac{3}{5}-\frac{1}{2}</m>
-              </p>
-            </li>
-            <li>
-              <p>
-                <m>
-                  \frac{8} {\frac{4}{3}}
-                </m>
-              </p>
-            </li>
-            <li>
-              <p>
-                <m>
-                  -23-(-15)
-                </m>
-              </p>
-            </li>
-          </ol>
-        </statement>
-        <solution>
-          <p>
-            (a) <m>\frac{1}{10}</m>; (b) <m>6</m>, (c) <m>-8</m>.
-          </p>
-        </solution>
+        <exercise xml:id="MR-operations">
+          <title>
+            Perform operations of addition, subtraction, multiplication, and 
+          division with signed numbers and fractions
+          </title>
+          <statement>
+            <p>
+              Compute the following without a calculator 
+            </p>
+            <ol cols="3">
+              <li>
+                <p>
+                  <m>\frac{3}{5}-\frac{1}{2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>
+                    \frac{8} {\frac{4}{3}}
+                  </m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>
+                    -23-(-15)
+                  </m>
+                </p>
+              </li>
+            </ol>
+          </statement>
+          <solution>
+            <p>
+              (a) <m>\frac{1}{10}</m>; (b) <m>6</m>, (c) <m>-8</m>.
+            </p>
+          </solution>
         </exercise>
-        <exercise>
-        <title>Use order of operations correctly</title>  
-        <statement>
-          <p>
-           Compute  <m>4(3+7)-8+5(2-3)=</m><var />.
-          </p>
-        </statement>
-          <!--<setup>
-            <var>
-              <condition number="27">
-                <feedback>
-                  <p>
-                    Correct.
-                  </p>
-                </feedback>
-              </condition>
-              <condition number="43">
-                <feedback>
-                  <p>
-                    Incorrect. Be sure to multiply before adding.
-                  </p>
-                </feedback> 
-              </condition>
-              <condition number="*.*">
-                <feedback>
-                  <p>
-                    You made an error somewhere.
-                  </p>
-                </feedback>
-              </condition>
-            </var>
-          </setup>-->
+        <exercise xml:id="MR-orderops">
+          <title>Use order of operations correctly</title>  
+          <statement>
+            <p>
+            Compute  <m>4(3+7)-8+5(2-3)=</m><var />.
+            </p>
+          </statement>
+            <!--<setup>
+              <var>
+                <condition number="27">
+                  <feedback>
+                    <p>
+                      Correct.
+                    </p>
+                  </feedback>
+                </condition>
+                <condition number="43">
+                  <feedback>
+                    <p>
+                      Incorrect. Be sure to multiply before adding.
+                    </p>
+                  </feedback> 
+                </condition>
+                <condition number="*.*">
+                  <feedback>
+                    <p>
+                      You made an error somewhere.
+                    </p>
+                  </feedback>
+                </condition>
+              </var>
+            </setup>-->
           <answer>
-          <p>
-            <m>27</m>.
-          </p>
+            <p>
+              <m>27</m>.
+            </p>
           </answer>
         </exercise>
-        <exercise>
+        <exercise xml:id="MR-simplify">
           <title>Simplify algebraic expressions</title>
-        <statement>
+          <statement>
               <p>
                 Simplify <m>3x-5(x+4)</m>.
               </p>
-        </statement>
-        <solution>
-          <p>
-            <m> -2x-20 </m>. Other allowable answers 
-            include <m>-20-2x</m> and <m>-2(10+x)</m> and <m>2(-10-x)</m>.
-          </p>
-        </solution>
+          </statement>
+          <solution>
+            <p>
+              <m> -2x-20 </m>. Other allowable answers 
+              include <m>-20-2x</m> and <m>-2(10+x)</m> and <m>2(-10-x)</m>.
+            </p>
+          </solution>
         </exercise>
-        <exercise>
-        <title>Work with exponents and radicals</title>
-        <statement>
-          <p>
-            Simplify the following: 
-          </p>
-          <ol cols="3">
-            <li>
-              <p>
-                <m>4x^2 x^3</m>
-              </p>
-            </li>
-            <li>
-              <p>
-                <m>(5x^2)^3</m>
-              </p>
-            </li>
-            <li>
-              <p>
-                <m>\sqrt{9x^2}</m>
-              </p>
-            </li>
-          </ol>
-        </statement>
-        <solution>
-          <p>
-            (a) <m>4x^5</m>; (b) <m>125x^6</m>; (c) <m>3x</m>.
-          </p>
-        </solution>
+        <exercise xml:id="MR-solveLin">
+          <title>Solve linear equations</title>
+          <statement>
+            <p>
+              <ol>
+                <li>
+                  <p>
+                    Solve <m>5(1.6a-3.6)=22</m>.
+                  </p>
+                </li>
+              </ol>
+              <li>
+                <p>
+                  Solve <m>4x-2(x+3)=3(x-8)</m>.
+                </p>
+              </li>
+            </p>
+          </statement>
+          <solution>
+            <p>
+              (a) <m>a=5</m>; (b) <m>x=18</m>
+            </p>
+          </solution>
         </exercise>
-        <exercise>
+        <exercise xml:id="MR-exponents">
+          <title>Work with exponents and radicals</title>
+          <statement>
+            <p>
+              Simplify the following: 
+            </p>
+              <ol cols="3">
+              <li>
+                <p>
+                  <m>4x^2 x^3</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(5x^2)^3</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\sqrt{9x^2}</m>
+                </p>
+              </li>
+            </ol>
+          </statement>
+          <solution>
+            <p>
+              (a) <m>4x^5</m>; (b) <m>125x^6</m>; (c) <m>3x</m>.
+            </p>
+          </solution>
+        </exercise>
+        <exercise xml:id="MR-graph">
           <title>Work with coordinate graphs and lines</title>
           <statement>
             <p>
@@ -180,20 +205,7 @@
             </image>
           </solution>
         </exercise>
-        <exercise>
-          <title>Solve linear equations</title>
-          <statement>
-            <p>
-              Solve <m>4x-2(x+3)=3(x-8)</m>.
-            </p>
-          </statement>
-          <solution>
-            <p>
-              <m>x=18</m>
-            </p>
-          </solution>
-        </exercise>
-        <exercise>
+        <exercise xml:id="MR-polynomials">
           <title>Multiply and factor polynomials</title>
           <statement>
             <p>
@@ -219,58 +231,61 @@
         </exercise>
       </exercises>
     </section>
-      <section xml:id="MR-sec-next">
-        <title>Next Steps</title>
-          <p>
-            If you do not feel comfortable completing the above problems 
-            on your own, then MA100 is probably the
-            right course for you. Return to the Directed Self-Placement 
-            and select MA100. On the other hand, if you
-            were able to complete 80% of the problems with only minor errors 
-            and without assistance, you probably are ready for 
-            a different course. 
-          </p>
-            <p component="nursing">
-              Nursing majors who have the skills described above should 
-              consider enrolling in <xref ref="ch-QL" text="title"/>. 
-            </p> 
-            <p component="quant">
-              Students considering a major in a quantitative field such as mathematics, cybersecurity,
-              biology, computer science, exercise science, or who hope to apply to medical, dental,
-              veterinary, or engineering graduate programs should look at 
-              evaluate their readiness for <xref ref="ch-CA" text="title"/>
-              or <xref ref="ch-Functions" text="title"/>, or a course
-                <xref ref="ch-above130" text="custom">above MA130</xref>.
-            </p>
-            <p component="educ">
-              Education majors who can perform the skills in MA100 Math 
-              Refresher may choose among several courses to satisfy the 
-              general education requirement. The course <xref ref="ch-GeoEx" 
-              text="title"/> is designed 
-              to strengthen the geometry skills needed to pass the licensure 
-              exam, to deepen teachers' understanding of the geometry they will  
-              teach, and to experience different ways of teaching. The course 
-              <xref ref="ch-Puzzles" text="title"/>
-              introduces students to some of the great ideas of mathematics beyond 
-              throughout history and explores number systems, infinity, and probability,
-              all of which are beneficial for a teacher of mathematics. Students
-              who may choose mathematics as their speciality may opt to begin
-              with <xref ref="ch-Functions" text="title"/>. 
-            </p>
-            <p component="gen-ed"> 
-            Students who can perform the skills above may choose among several 
-            courses that satisfy the general education requirement: The course 
-            <xref ref="ch-QL" text="title"/>
-            focuses on the mathematics used in making financial and civic decisions.
-            The course 
-            <xref ref="ch-Puzzles" text="title"/>
-            introduces students to some of the great ideas of mathematics beyond 
-            throughout history and explores number systems, infinity, and probability. 
-            <xref ref="ch-GeoEx" text="title"/>
-            encourages students to discover and uncover geometic patterns and 
-            understand more deeply geometric ideas, including its appearance in art 
-            nature. Students interested in a quantitative field may check their 
-            readiness for <xref ref="ch-Functions" text="title"/>.
-          </p>
-        </section>
+    <section xml:id="MR-sec-next">
+      <title>Next Steps</title>
+        <p>
+          If you do not feel comfortable completing the above problems 
+          on your own, then MA100 is probably the
+          right course for you. Return to the Directed Self-Placement 
+          and select MA100. On the other hand, if you
+          were able to complete 80% of the problems with only minor errors 
+          and without assistance, you probably are ready for 
+          a different course. 
+        </p>  
+        <p component="nursing">
+          Nursing majors who have the skills described above, especially
+          in exercises 1 through 5, should 
+          consider enrolling in <xref ref="ch-QL" text="title"/>. 
+        </p> 
+        <p component="quant">
+          Students considering a major in a quantitative field such as mathematics, cybersecurity,
+          biology, computer science, exercise science, or who hope to apply to medical, dental,
+          veterinary, or engineering graduate programs should look at 
+          evaluate their readiness for <xref ref="ch-CA" text="title"/>
+          or <xref ref="ch-Functions" text="title"/>, or a course
+          <xref ref="ch-above130" text="custom">above MA130</xref>.
+        </p>
+        <p component="educ">
+          Education majors who can perform the skills in MA100 Math 
+          Refresher may choose among several courses to satisfy the 
+          general education requirement. The course <xref ref="ch-GeoEx" 
+          text="title"/> is designed 
+          to strengthen the geometry skills needed to pass the licensure 
+          exam, to deepen teachers' understanding of the geometry they will  
+          teach, and to experience different ways of teaching. The course 
+          <xref ref="ch-Puzzles" text="title"/>
+          introduces students to some of the great ideas of mathematics beyond 
+          throughout history and explores number systems, infinity, and probability,
+          all of which are beneficial for a teacher of mathematics. Students
+          who may choose mathematics as their speciality may opt to begin
+          with <xref ref="ch-Functions" text="title"/>. 
+        </p>
+        <p component="gen-ed"> 
+          Students who can perform the skills above may choose among several 
+          following courses that satisfy the math core requirement: The course 
+          <xref ref="ch-QL" text="title"/>
+          focuses on the mathematics used in making financial and civic decisions.
+          The course 
+          <xref ref="ch-Puzzles" text="title"/>
+          introduces students to some of the great ideas of mathematics beyond 
+          throughout history and explores number systems, infinity, and probability. 
+          <xref ref="ch-GeoEx" text="title"/>
+          encourages students to discover and uncover geometic patterns and 
+          understand more deeply geometric ideas, including its appearance in art 
+          nature. Students interested in continuing their path toward 
+          Calculus may check their 
+          readiness for <xref ref="ch-Functions" text="title"/>. Click on the 
+          links to explore these options.
+        </p>
+    </section>
 </chapter>
