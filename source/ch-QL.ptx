@@ -44,13 +44,14 @@ component="NG">
             solving linear equations, and working with percents and decimals. 
             Normally, the use of 
             a calculator is allowed in this course, but students need to 
-            be able to convert word problems to algebraic expressions, 
-            recognize which variable is the one to solve for.
+            be able to convert word problems to algebraic equations, 
+            recognizing how to input values and solve for the appropriate variable.
             Students needing 
-            significant strengthening of these skills are encouraged to 
+            to strengthen these skills are encouraged to 
             consider starting in <xref ref="ch-MR" text="title"/>. 
             To test your readiness for MA123, you are encouraged to 
-            attempt the problems in <xref ref="MR-exer"/>. You do not need 
+            attempt the problems in <xref ref="MR-exer"/> and then 
+            check your work. You do not need 
             to be able to do the problems below in <xref ref="sec-MA123-LO"/>; 
             you will learn these skills and concepts
             during the course.
@@ -59,8 +60,13 @@ component="NG">
     <section xml:id="sec-MA123-LO">
         <title>What will I learn in MA123 Quantitative Literacy?</title>
         <p> 
-            At the end of MA123 (not now!), you should be able to do the following. 
-            Calculators are allowed unless specified. 
+            At the end of MA123 (not now!), you should be able to do the following
+            types of exercises. Calculators are allowed unless specified. These 
+            problems are provided to give you a sense of what you will learn in this 
+            course. You need only try enough of these problems to check that this  
+            course will not be too easy and repetitive for you. If you do complete 
+            problems, you are encouraged to view the provided answers and solutions
+            after (not before) you finish each group of problems.
           </p>
     <exercises xml:id="exercises-MA123">
         <!--<title>What will I learn in MA123 Quantitative Literacy?</title>-->
@@ -69,13 +75,15 @@ component="NG">
             <statement>
                 <p>
                     The cost of a liter of gasoline in Brasilia in June 2023 was 5.23 Brazilian
-                    Real. Convert 5.23 Real/liter to US dollars/gallon. Use the exchange rate 
+                    Real. Determine the equivalent cost in US dollars per gallon. Use the exchange rate 
                     1 B Real = 0.21 US Dollar and the conversion factor 1 liter = 0.264 gallon in 
                     your work. Round to the nearest penny per gallon.
                 </p>
-                <p>The equivalent cost is <var /> US $ per gallon.</p>
+                <p>
+                    <!--5.23 Brazilian Real per liter is equivalent to <var /> US dollars per gallon.-->
+                </p>
             </statement>
-            <setup>
+            <!--<setup>
                 <var>
                     <condition number="4.16" tolerance="0.01">
                         <feedback>
@@ -92,13 +100,14 @@ component="NG">
                         </feedback>
                     </condition>
                 </var>
-            </setup>
+            </setup>-->
             <hint>
                 <p>
                     How do we define being able to do this problem? Speed is less important that reasoning 
                     it out. Can you set it up and use your knowledge of multiplication and division of fractions? 
-                    Searching for similar problems to mimic or looking at the 
-                    solution does not count as knowledge of the topic.
+                    Searching for similar problems to mimic, looking at the 
+                    solution, or randomly trying operations does not count as knowledge 
+                    of the topic.
                 </p>
             </hint>
             <answer>
@@ -160,6 +169,11 @@ component="NG">
                         </ol>
                     </p>
                 </statement>
+                <hint>
+                    <p>
+                        What if you are making $100,000?
+                    </p>
+                </hint>
                 <answer>
                     <p> 
                         b. Your salary will grow by 4.5 percent. Note 
@@ -167,10 +181,17 @@ component="NG">
                         growth is not additive. 
                     </p>
                 </answer>
+                <solution>
+                    <p>
+                        If your salary at the beginning of the problem is <m>S</m>,
+                        then your salary will be <m>0.95S</m> after the first year 
+                        and <m>1.10(0.95S)=(1.1\cdot 0.95)S=1.045S</m> after the 
+                        second year.
+                    </p>
+                </solution>
             </task>  
             <task> 
-                <statement>
-                        
+                <statement>   
                     <p> Your restaurant bill of $55.59 includes a 
                         9% meals tax. What was the charge for the meal 
                         before the tax was added? Your answer should be  
@@ -185,6 +206,13 @@ component="NG">
                             9 percent. Do you get $55.59? 
                     </p>
                 </answer>
+                <solution>
+                    <p>
+                        The unknown quantity in this problem is the amount <m>A</m> before 
+                        the 9% tax is added. We solve <m>A+0.9A=50.59</m> which can 
+                        be rewritten as <m>1.09A=50.59</m>.
+                    </p>
+                </solution>
             </task>
         </exercise>
         <exercise>
@@ -192,8 +220,9 @@ component="NG">
             <task>
                 <statement>
                     <p>
-                    Your calculator displays the number <m>5.147284E5</m> 
-                    or <m>5.147284\times 10^5</m>. Which of the following 
+                    Your calculator displays the number <m>5.147284\text{E}5</m> 
+                    which is equivalent to <m>5.147284\times 10^5</m>. 
+                    Which of the following 
                     best describes the magnitude of this number?
                     <ol>
                         <li>
@@ -222,7 +251,7 @@ component="NG">
                 <answer>
                     <p>
                         d. The number is 514,728.4. You should be able to 
-                        do this without a calculator.
+                        do this type of exercise without a calculator.
                     </p>
                 </answer>
             </task>
@@ -246,13 +275,19 @@ component="NG">
                                 </p>
                             </li>
                         </ol>
-                    
                     </p>
                 </statement>
                 <answer>
                     (a) <m>8\times 10^8</m>; (b) <m>4.0002\times 10^6</m>;
                     (c) <m>2\times 10^4</m>
                 </answer>
+                <solution>
+                    <p>
+                        (a) <m>(4\times 10^6)\times (2\times 10^2)=(4\cdot 2)\times (10^{6+2})=8\times10^8</m>;
+                        (b) <m>(4\times 10^6)+(2\times 10^2)=4000000+200=4000200=4.0002\times 10^6</m>;
+                        <m>\frac{4\times 10^6}{2\times 10^2}=\frac{4}{2}\times 10^{6-2}=2\times 10^4</m>
+                    </p>
+                </solution>
             </task>
         </exercise>
         <exercise>
@@ -304,20 +339,20 @@ component="NG">
                 <p>
                     The following table breaks down a sample of 100 people 
                     who were tested for Disease L according to whether they had 
-                    Disease L and whether the test showed that they had the 
+                    Disease L and whether the test indicated that they had the 
                     disease. Use the table to answer the questions that follow:
                 </p>
                 <table>
-                    <title>Test results and incidence for a disease</title>
+                    <title>Test results and incidence for disease L</title>
                     <tabular halign="center">
                       <row header="yes"> <!--bottom="minor"-->
                         <cell> </cell>
-                        <cell>Disease present</cell>
-                        <cell>No disease</cell>
+                        <cell>Patient has L</cell>
+                        <cell>Patient does not have L</cell>
                         <cell>Total</cell>
                       </row>
                       <row>
-                        <cell>Test indicated disease</cell>
+                        <cell>Test indicated disease L</cell>
                         <cell>8</cell>
                         <cell>2</cell>
                         <cell>10</cell>
@@ -359,6 +394,15 @@ component="NG">
                     (a) 20 percent; (b) 97.73 percent
                 </p>
             </answer>
+            <solution>
+                <p>
+                    For b, we divide 86 by 88. Knowing how to do this  
+                    type of problem means that you can read the two-way 
+                    table and determine which values you need to divide to 
+                    determine the probability. In addition, you may be asked 
+                    to complete a partially-filled table.
+                </p>
+            </solution>
         </exercise>
         <exercise>
             <title>Recognize whether growth is linear or exponential and 
@@ -388,16 +432,40 @@ component="NG">
             <answer>
                 <p>(a) approximately 11.9 years; (b) nearly 574,350 </p>
             </answer>
+            <solution>
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                We solve the equation <m>2P=P1.06^{t}</m>. We can divide 
+                                both sides by <m>P</m>, leaving <m>2=1.06^{t}</m>. One way to 
+                                complete this problem is to graph <m>y=1.06^x</m> and 
+                                <m>y=2</m> on the same coordinate graph (using technology) to 
+                                see where the curves intersect. To solve this by computations,
+                                we would take a logarithm (log or ln) of both sides to get 
+                                <m>t=\frac{log(2)}{log(1.06)}\approx11.9</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <m>1000000\cdot1.06^{50-20}\approx574,349</m>.
+                        </li>
+                    </ol>
+                </p>
+            </solution>
         </exercise>
     </exercises>
     </section>
     <section xml:id="sec-QL-next-nursing" component="nursing">
         <title>Next Steps</title>
         <p>
-            If you cannot do the problems in <xref ref="exercises-MA123"/>
-             on your own, 
-            you should decide whether <xref ref="ch-MR" text="title"/> or 
-            MA123 Quantitative Literacy is the appropriate course for you. Choose
+            It is expected that most entering nursing majors will not be able to 
+            do the problems in <xref ref="exercises-MA123"/> above. Unless you could 
+            set up and complete nearly all of these, 
+            you should decide whether this course  
+            MA123 Quantitative Literacy or <xref ref="ch-MR" text="title"/>
+            is the appropriate course for you. You can self-assess whether you would 
+            benefit from taking <xref ref="ch-MR" text="title"/> by trying the 
+            exercises in <xref ref="MR-exer"/>. Choose
             <xref ref="ch-MR" text="title"/> only if you need to develop skills in working with
             fractions, simplifying expressions, and solving linear equations. If you take MA100, 
             you will have no other electives in your nursing degree plan. Some skills 
