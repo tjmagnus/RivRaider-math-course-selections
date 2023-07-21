@@ -31,13 +31,13 @@
         determining equations of lines; and solving systems 
         of two equations in two unknowns. Sample problems
         that you should be able to do at the end of the 
-        semester are given in the next section. If you are
+        semester are given below. If you are
         able to do these problems now, you should be ready to 
         ready to take your general education mathematics
         course requirement without taking MA100. Read on!
       </p>
     <exercises xml:id="MR-exer"> 
-      <title>What will I learn in MA100 Math Refresher</title>
+      <title>What will I learn in MA100 Math Refresher?</title>
         <introduction>
           <p>
             At the end of MA100, you should be able to do the following:
@@ -142,12 +142,12 @@
                     Solve <m>5(1.6a-3.6)=22</m>.
                   </p>
                 </li>
+                <li>
+                  <p>
+                    Solve <m>4x-2(x+3)=3(x-8)</m>.
+                  </p>
+                </li>
               </ol>
-              <li>
-                <p>
-                  Solve <m>4x-2(x+3)=3(x-8)</m>.
-                </p>
-              </li>
             </p>
           </statement>
           <solution>
@@ -250,7 +250,7 @@
         <p component="quant">
           Students considering a major in a quantitative field such as mathematics, cybersecurity,
           biology, computer science, exercise science, or who hope to apply to medical, dental,
-          veterinary, or engineering graduate programs should look at 
+          veterinary, or engineering graduate programs should 
           evaluate their readiness for <xref ref="ch-CA" text="title"/>
           or <xref ref="ch-Functions" text="title"/>, or a course
           <xref ref="ch-above130" text="custom">above MA130</xref>.

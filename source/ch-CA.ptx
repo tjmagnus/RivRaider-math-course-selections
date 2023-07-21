@@ -14,15 +14,15 @@
         not accepted for transfer at other colleges. You should only enroll
         in MA112 if you are considering taking MA130 Functions in the future.
     </p>
-    
+  </introduction>
+    <section xml:id="sec-CA-topics">
+      <title>Topics in MA112 College Algebra</title>
     <p>
         Topics include solving linear and polynomial equations and inequalities, 
         simplifying and evaluating polynomial, rational, radical, piecewise-defined, 
         exponential and logarithmic expressions, graphing linear and quadratic functions, 
         and solving applied problems and systems of linear equations. 
     </p>
-    
-    </introduction>
     <exercises>
         <title>What will I learn in MA112 College Algebra</title>
         <introduction>
@@ -47,7 +47,7 @@
             <li>
               <p>
                 <m>
-                  \frac{6x^2-6}{2x^2-4x+4}
+                  \frac{6x^2-6}{2x^2-4x+2}
                 </m>
               </p>
             </li>
@@ -58,6 +58,19 @@
             a. <m>-2x^2-40x-80</m>; (b) <m>\frac{3(x+1)}{x-1}</m>
           </p>
         </answer>
+        <solution>
+          <p>
+            <ol>
+              <li>
+                  <m>3x^2-5(x+4)^2=3x^2-5(x+4)(x+4)=3x^2-5x^2-40x-80</m>
+              </li>
+              <li>
+                <m>\frac{6x^2-6}{2x^2-4x+2}=
+                  \frac{6(x+1)(x-1)}{2(x-1)(x-1)}=\frac{3(x+1)}{x-1}</m>
+              </li>
+            </ol>
+          </p>
+        </solution>
         </exercise>
         <exercise>
           <title>Solve Linear and Quadratic Equations</title>
@@ -67,22 +80,45 @@
             </p>
             <ol>
               <li>
-                <p>
-                  <m>4x-\frac{2}{3}(x+3)=\frac{1}{3}(x-12)</m>
-                </p>
+                  <m>4x-\frac{2}{3}(x+3)=\frac{1}{3}(x+12)</m>
               </li>
               <li>
-                <p>
                   <m>(x-4)(x+5)=36</m>
-                </p>
               </li>
             </ol>
           </statement>
+          <hint>
+            <p>
+              Using a guess-and-check method does not qualify as understanding
+            this concept.
+            </p>
+          </hint>
           <answer>
             <p>
-              (a) <m>x=-2</m>; (b) <m>x=7</m> or <m>x=-8</m>
+              (a) <m>x=2</m>; (b) <m>x=7</m> or <m>x=-8</m>
             </p>
           </answer>
+          <solution>
+            <p>
+              <ol>
+                <li>
+                    <p>
+                      One method of solving this problem is to use the 
+                      distributive property to get 
+                      <m>4x-\frac{2x}{3}-2=\frac{x}{3}+4</m>. Adding
+                      <m>2-\frac{x}{3}</m> to both sides gives 
+                      <m>4x-\frac{2x}{3}-\frac{x}{3}=4+2</m> or <m>4x-x=6</m>. 
+                      Thus, <m>3x=6</m> and <m>x=2</m>.
+                    </p>
+                </li>
+                <li>
+                    Expanding the left side, we get <m>x^2+x-20=36</m> which 
+                    can be rewritten as <m>x^2+x-56=0</m>. Factoring the polynomial
+                    gives us <m>(x-7)(x+8)=0</m> so that <m>x=7</m> or <m>x=-8</m>.
+                </li>
+              </ol>
+            </p>
+          </solution>
         </exercise>
         <exercise>
           <title>Work with exponents and radicals</title>
@@ -90,30 +126,44 @@
             <p>
               Simplify the following expressions:
             </p>
-            <ol cols="3">
+            <ol>
               <li>
-                <p>
-                  <m>\left(\frac{2x}{3}\right)^3 \left(\frac{9y^2}{14x^5}\right)</m>
-                </p>
-              </li>
-              <li>
-                <p>
                   <m>\sqrt{9x^2 y^6}</m>
-                </p>
               </li>
               <li>
-                <p>
                   <m>\left(\frac{24x^8}{15x^3}\right)^{-2}</m>
-                </p>
               </li>
             </ol>
           </statement>
           <answer>
             <p>
-              (a) <m>\frac{4y^2}{21x^2}</m>; (b) <m>3xy^3</m>; 
+              (a) <m>3xy^3</m>; (b) <m>\frac{4y^2}{21x^2}</m>;  
               (c) <m>\frac{25}{64x^{10}}</m>
             </p>
           </answer>
+          <solution>
+            <p>
+            <ol>
+              <li>
+                <m>\sqrt{9x^2 y^6}=\sqrt{9}\sqrt{x^2}\sqrt{y^6}=3xy^3</m>
+            </li>
+              <li>
+                  <md>
+                    <mrow>\left(\frac{2x}{3}\right)^3 \left(\frac{9y^2}{14x^5}\right)
+                    \amp=\left(\frac{(2x)^3}{3^3}\right) \left(\frac{9y^2}{14x^5}\right)</mrow>
+                    <mrow>\amp=\frac{8x^3\cdot 9y^2}{27\cdot 14x^5}
+                    =\frac{4y^2}{21x^2}</mrow>
+                    </md>
+              </li>
+              <li>
+                  <m>\left(\frac{24x^8}{15x^3}\right)^{-2}
+                    =\left(\frac{8x^5}{5}\right)^{-2}=\left(\frac{64x^{10}}{25}\right)^{-1}
+                    =\frac{25}{64x^{10}}
+                  </m>
+              </li>
+            </ol>
+            </p>
+          </solution>
         </exercise>
         <exercise>
           <title>Determine an Equation for a Line</title>
@@ -241,24 +291,27 @@
           </p>
           </solution>
         </exercise>
-        <conclusion>
-          <p>
-            If you feel comfortable completing most of the above 
-            problems on your own with only minor errors, 
-            then you should be ready to enroll in 
-            <xref ref="ch-Functions" text="title"/>.
-            If you had difficulty even starting most of the problems, 
-            you might want to look at  
-            <xref ref="ch-MR" text="title"/>
-            to strengthen the mathematical skills needed for 
-            MA112 College Algebra and other 
-            courses. If you are able to do most of the problems in <xref ref="ch-MR" text="custom">MA100 Math Refresher</xref> but not many of the problems
-            on this page, MA112 College Algebra is the right course for you.
-            </p>
-            <p>
-            If you are ready to confirm your mathematics course selection, return to the Directed Self-Placement and 
-            check the box for the desired course. More information for completing this process is available in 
-          </p>
-        </conclusion>
-    </exercises>
+      </exercises>
+    </section>
+    <section xml:id="sec-">
+      <title>Next Steps</title>
+      <p>
+        If you feel comfortable completing most of the above 
+        problems on your own with only minor errors, 
+        then you should be ready to enroll in 
+        <xref ref="ch-Functions" text="title"/>.
+        If you had difficulty even starting most of the problems, 
+        you might want to look at  
+        <xref ref="ch-MR" text="title"/>
+        to strengthen the mathematical skills needed for 
+        MA112 College Algebra and other 
+        courses. If you are able to do most of the problems in <xref ref="ch-MR" text="custom">MA100 Math Refresher</xref> but not many of the problems
+        on this page, MA112 College Algebra is the right course for you.
+        </p>
+        <p>
+        If you are ready to confirm your mathematics course selection, return to the Directed Self-Placement and 
+        check the box for the desired course. More information for completing this process is available in 
+      </p>    
+    </section>
+       
 </chapter>
