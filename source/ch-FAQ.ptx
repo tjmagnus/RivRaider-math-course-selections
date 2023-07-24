@@ -9,7 +9,7 @@
       Here are the answers to some questions you might have:
     </p>
     </introduction>
-    <exercise>
+    <exercise xml:id="creditFAQ">
         <statement>
             <p>
             What should I do if I have possible college credit 
@@ -27,7 +27,7 @@
             </p>
         </answer>
     </exercise>
-    <exercise>
+    <exercise xml:id="changeFAQ">
         <statement>
             <p>
                 What if I change my mind about my math course 
@@ -64,7 +64,7 @@
             </p>
         </answer>
     </exercise>
-    <exercise>
+    <exercise xml:id="improveFAQ">
         <statement>
         <p>
             What if I can improve my mathematical skills between now  
