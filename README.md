@@ -1,3 +1,5 @@
-# My Great Book
+# Rivier Raider Math Course Selections
 
-Visit <https://pretextbook.org/documentation.html> to learn more.
+To be used in conjunction with the Mathematics Directed Self-Placement survey.
+
+Visit <https://tjmagnus.github.io/RivRaider-math-course-selections/> to access all four deployed versions.
