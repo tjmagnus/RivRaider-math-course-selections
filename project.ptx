@@ -18,24 +18,28 @@
       <source>source/main.ptx</source>
       <publication>publication/publication-edu.ptx</publication>
       <output-dir>output/web</output-dir>
+      <deploy-dir>./education</deploy-dir>
     </target>
     <target name="nursing-version">
       <format>html</format>
       <source>source/main.ptx</source>
       <publication>publication/publication-nursing.ptx</publication>
       <output-dir>output/web</output-dir>
+      <deploy-dir>./nursing</deploy-dir>
     </target>
     <target name="STEM-version">
       <format>html</format>
       <source>source/main.ptx</source>
       <publication>publication/publication-quant.ptx</publication>
       <output-dir>output/web</output-dir>
+      <deploy-dir>./quantitative</deploy-dir>
     </target>
     <target name="other-version">
       <format>html</format>
       <source>source/main.ptx</source>
       <publication>publication/publication-other.ptx</publication>
       <output-dir>output/web</output-dir>
+      <deploy-dir>./others</deploy-dir>
     </target>
     <target name="print" pdf-method="xelatex">
       <format>pdf</format>
