@@ -2,4 +2,4 @@
 
 To be used in conjunction with the Mathematics Directed Self-Placement survey.
 
-Visit <https://website_to_be_added> to learn more.
+Visit <https://tjmagnus.github.io/RivRaider-math-course-selections/> to access all four deployed versions.
