@@ -102,6 +102,75 @@
             </p>
         </answer>
     </exercise>
+    <exercise>
+        <statement>
+            <p>
+                What if I am still not sure about which course to choose?
+            </p>
+        </statement>
+        <answer>
+            <p component="quant">
+                We appreciate your concern and recognize that choosing the right course may seem a 
+                daunting task. If the course you were initially directed to seems 
+                reasonable, we encourage you to sign up for that course. If it 
+                seemed too easy or too difficult, choose a course above or below 
+                it as appropriate. Courses recommended for Quantitative Majors in 
+                increasing order of difficulty are: <xref ref="ch-MR" text="title"/>,
+                <xref ref="ch-CA" text="title"/>, <xref ref="ch-Functions" text="title"/>, or a
+                <xref ref="above130">course above MA130</xref>. Perhaps, your skill
+                set lies somewhere between two courses. How comfortable are you with 
+                tackling mathematical challenges and seeking help when needed? How much
+                support have you relied on in previous courses? Note also that 
+                <xref ref="ch-MR" text="title"/> and <xref ref="ch-Functions" text="title"/> are only
+                offered in fall semesters so you may want to take MA130 if you are mostly 
+                ready. It is easier to drop down to <xref ref="ch-CA" text="title"> from 
+                <xref ref="ch-Functions" text="title"/> during the first week of class than
+                the other way around.    
+            </p>
+            <p component="nursing">
+                We appreciate your concern and recognize that choosing the right course may seem
+                to be a daunting task. If the course you were initially directed to seems 
+                reasonable, we encourage you to sign up for that course. Courses recommended for 
+                Nursing Majors in increasing order of difficulty are: <xref ref="ch-MR" text="title"/> and
+                <xref ref="ch-QL" text="title"/>. Perhaps, your skill
+                set lies somewhere between the two courses. Taking <xref ref="ch-MR" text="title"/> is a benefit to 
+                the students who really need it, but it means the loss of the only elective slot in the nursing degree plan.
+                As a nursing major, you will be taking other 
+                challenging courses in your first year, but it is also helpful to complete 
+                <xref ref="ch-QL" text="title"/> early in your program to prepare you for the mathematics 
+                in your nursing program. How comfortable are you with 
+                tackling mathematical challenges and seeking help when needed? How much
+                support have you relied on in previous courses? 
+            </p>
+            <p component="educ">
+                We appreciate your concern and recognize that choosing the right course may seem
+                to be a daunting task. If the course you were initially directed to seems 
+                reasonable, we encourage you to sign up for that course. Otherwise, consider the following:
+                As an Education Major, you should first determine whether you need  
+                <xref ref="ch-MR" text="title"/> since that course will help prepare you for your Core Math course, 
+                some education courses, and your licensure exams. Taking <xref ref="ch-MR" text="title"/> is a benefit to 
+                the students who really need it, but many students are ready to complete their core math 
+                requirement. Education majors who can do most of the skills in <xref ref="ch-MR" text="title"/> should 
+                consider whether they would benefit from <xref ref="ch-GeoEx" text="title"/> which delves deeper into the geometry 
+                needed for K-8 teaching and tested on the licensure exam. <xref ref="ch-GeoEx" text="title"/> is only offered in the spring 
+                semester so Education majors choosing mathematics as their specialization may opt to take <xref ref="ch-Puzzles" text="title"/>
+                or <xref ref="ch-Functions" text="title"/> in their first semester.
+            </p>
+            <p component="gen-ed">
+                We appreciate your concern and recognize that choosing the right course may seem
+                to be a daunting task. If the course you were initially directed to seems 
+                reasonable and interesting, we encourage you to sign up for that course. Otherwise, 
+                you should first determine whether you need  
+                <xref ref="ch-MR" text="title"/> since that course will help prepare you for your Core Math course, 
+                Taking <xref ref="ch-MR" text="title"/> is a benefit to 
+                the students who really need it, but many students are ready to complete their core math 
+                requirement. Because your degree plan does not specify a mathematics course, you may choose whichever of the Core Math Requirement
+                courses, <xref ref="ch-QL" text="title"/>, <xref ref="ch-Puzzles" text="title"/>, <xref ref="ch-GeoEx" text="title"/>, or  <xref ref="ch-Functions" text="title"/>
+                sounds the most interesting to you. Of these, <xref ref="ch-Functions" text="title"/> requires a strong working knowledge of
+                algebra and graphing. The table in <xref ref="gen-ed-sec-options"> illustrates some other differences between these courses.
+            </p>
+        </answer>
+    </exercise>
 </exercises>
   
 </chapter>
