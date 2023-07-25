@@ -307,7 +307,7 @@
         </exercise>
     </exercises>
     </section>
-    <section>
+    <section xml:id="sec-Func-ready">
         <title>Are you ready for MA130?</title>
         <p component="EG">
             Some students need to reinforce their algebraic skills 
@@ -329,19 +329,21 @@
             struggle with most of these prerequisite problems, then you 
             may want to start in <xref ref="ch-CA" text="title"/>. 
         </p>
-        <!--<xi:include href="exer-CA"/>-->
+        <xi:include href="exer-CA"/>
     </section>
     <section>
         <title>Choosing Your Course</title>
             <p>
-              MA130 is the right course for you if you are strong in algebra techniques (see <xref ref="ch-CA"/> for 
-              comparison) but find many of the problems in <xref ref="exer-130"/>
+              MA130 is the right course for you if you can do most of the 
+              algebraic techniques in <xref ref="sec-Func-ready"/>,
+                but find many of the problems in <xref ref="exer-130"/>
               to be new or difficult. In MA130, there will also be an emphasis on 
               doing problems that are closer to how you encounter mathematics beyond the classroom; your 
               ability to take a mathematical situation and rephrase it into a formula will grow. 
-              
+            </p>
+            <p>
               On the other hand, if you are comfortable completing most of the
-              above problems on your own with only minor errors, 
+                <xref ref="exer-130"/> problems on your own with only minor errors, 
               then you may be ready to enroll in <xref ref="ch-above130" 
               text="custom">MA165 Calculus 
               or a higher-level course</xref>. Talk to your advisor and/or 
@@ -351,7 +353,7 @@
               <p>
               If you are ready to confirm your mathematics course selection or inquire about courses
                 above MA130, return to the Directed Self-Placement and 
-              check the box for the desired course or action. 
+              check the box for the desired course of action. 
             </p>
           </section>
 </chapter>
