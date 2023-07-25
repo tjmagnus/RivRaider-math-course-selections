@@ -5,7 +5,7 @@
 <!--*         https://pretextbook.org          *-->
 <!--*                                          *-->
 <!--********************************************-->
-<html lang="en-US">
+<html lang="en-US" dir="ltr">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Frequently Asked Questions</title>
@@ -14,54 +14,79 @@
 <meta property="og:type" content="book">
 <meta property="book:title" content="Rivier University Mathematics Courses">
 <meta property="book:author" content="Teresa D. Magnus, Ph.D.">
-<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
-  tex: {
-    inlineMath: [['\\(','\\)']],
-    tags: "none",
-    tagSide: "right",
-    tagIndent: ".8em",
-    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'color', 'newcommand', 'knowl']}
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
   },
-  options: {
-    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
-    processHtmlClass: "process-math",
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
   },
-  chtml: {
-    scale: 0.98,
-    mtextInheritFont: true
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
   },
-  loader: {
-    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/color', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
-    paths: {pretext: "https://pretextbook.org/js/lib"},
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
   },
-  startup: {
+  "startup": {
     pageReady() {
       return MathJax.startup.defaultPageReady().then(function () {
       console.log("in ready function");
       rsMathReady();
       }
     )}
-  },
+  }
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://unpkg.com/lunr/lunr.js"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.2/pretext_search.js"></script><link href="https://pretextbook.org/css/0.6/pretext_search.css" rel="stylesheet" type="text/css">
-<script>js_version = 0.2</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.2/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.2/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.2/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.3/pretext_search.js"></script><link href="https://pretextbook.org/css/0.7/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.3</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.3/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.3/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.3/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
-<link href="https://pretextbook.org/css/0.6/pretext.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/pretext_add_on.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/shell_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/banner_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/navbar_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/toc_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/knowls_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/style_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/colors_blue_red.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/setcolors.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/setcolors.css" rel="stylesheet" type="text/css">
 <!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
@@ -95,18 +120,18 @@ eBookConfig.enable_chatcodes =  false;
 <link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.0.7/prefix-runestone.8d2f742bc74f4a41.css">
 </head>
 <body class="pretext book ignore-math">
-<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead"><div class="ptx-banner">
-<a id="logo-link" href=""></a><div class="title-container">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" href=""></a><div class="title-container">
 <h1 class="heading"><a href="RivUMathCourses.html"><span class="title">Rivier University Mathematics Courses:</span> <span class="subtitle">A Supplement to the Directed Self-Placement Survey</span></a></h1>
 <p class="byline">Teresa D. Magnus, Ph.D.</p>
 </div>
-<div id="searchresultsplaceholder" style="display: none">
-<button id="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms"></span>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" class="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms" class="searchterms"></span>
 </h2>
-<div id="searchempty"><span>No results.</span></div>
-<ol id="searchresults"></ol>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
 </div>
-</div></header><nav id="ptx-navbar" class="navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="theavatarbutton" class="name">You!</span><div id="preferences_menu_holder" class="hidden"><ol id="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="avatarbutton" class="avatarbutton name">You!</span><div id="preferences_menu_holder" class="preferences_menu_holder hidden"><ol id="preferences_menu" class="preferences_menu" style="font-family: 'Roboto Serif', serif;">
 <li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
 <ol class="hidden avatar">
 <li data-val="You!" tabindex="-1">
@@ -209,7 +234,7 @@ eBookConfig.enable_chatcodes =  false;
 </ol>
 </li>
 </ol></div></button><span class="treebuttons"><a class="previous-button button" href="ch-above130.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="RivUMathCourses.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="ch-finished.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
-<input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
+<input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()">🔍</button>
 </div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
@@ -218,7 +243,7 @@ eBookConfig.enable_chatcodes =  false;
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar"><nav id="ptx-toc" class="depth1"><ul class="structural">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth1"><ul class="structural">
 <li><div class="toc-item"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
 <li>
 <div class="toc-item"><a href="about.html" class="internal"><span class="codenumber">1</span> <span class="title">Guide to Selecting Courses</span></a></div>
@@ -264,7 +289,10 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-item"><a href="ch-Functions.html#sec-Func-topics" class="internal"><span class="codenumber">6.1</span> <span class="title">Topics in MA130 Functions</span></a></div>
 <ul class="structural"><li><div class="toc-item"><a href="ch-Functions.html#exer-130" class="internal"><span class="codenumber">6.1</span> <span class="title">What will I learn in MA130 Functions?</span></a></div></li></ul>
 </li>
-<li><div class="toc-item"><a href="ch-Functions.html#section-12" class="internal"><span class="codenumber">6.2</span> <span class="title">Are you ready for MA130?</span></a></div></li>
+<li>
+<div class="toc-item"><a href="ch-Functions.html#sec-Func-ready" class="internal"><span class="codenumber">6.2</span> <span class="title">Are you ready for MA130?</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="ch-Functions.html#exer-CA" class="internal"><span class="codenumber">6.2</span> <span class="title">What will I learn in MA112 College Algebra</span></a></div></li></ul>
+</li>
 <li><div class="toc-item"><a href="ch-Functions.html#section-13" class="internal"><span class="codenumber">6.3</span> <span class="title">Choosing Your Course</span></a></div></li>
 </ul>
 </li>
@@ -274,7 +302,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="active">
 <div class="toc-item"><a href="ch-FAQ.html" class="internal"><span class="codenumber">8</span> <span class="title">Frequently Asked Questions</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="ch-FAQ.html#exercises-4" class="internal"><span class="codenumber">8</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="ch-FAQ.html#exercises-5" class="internal"><span class="codenumber">8</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li><div class="toc-item"><a href="ch-finished.html" class="internal"><span class="codenumber">9</span> <span class="title">Final Step: Recording Your Selection</span></a></div></li>
 <li><div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
@@ -283,25 +311,29 @@ eBookConfig.enable_chatcodes =  false;
 <section class="chapter" id="ch-FAQ"><h2 class="heading">
 <span class="type">Chapter</span> <span class="codenumber">8</span> <span class="title">Frequently Asked Questions</span>
 </h2>
-<section class="exercises" id="exercises-4"><h3 class="heading hide-type">
+<section class="exercises" id="exercises-5"><h3 class="heading hide-type">
 <span class="type">Exercises</span> <span class="codenumber"></span> <span class="title">Exercises</span>
 </h3>
-<section class="introduction" id="introduction-10"><div class="para" id="p-149">Here are the answers to some questions you might have:</div></section><article class="exercise exercise-like" id="exercise-20"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
-<div class="para" id="p-150">What should I do if I have possible college credit (Advanced Placement, International Baccalaureate, Running Start, transfer credit)?</div>
+<section class="introduction" id="introduction-11"><div class="para" id="p-183">Here are the answers to some questions you might have:</div></section><article class="exercise exercise-like" id="creditFAQ"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="para" id="p-184">What should I do if I have possible college credit (Advanced Placement, International Baccalaureate, Running Start, transfer credit)?</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-14" id="answer-14"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-14"><div class="answer solution-like"><div class="para" id="p-151">As soon as you have your scores or transcripts, contact your <a class="external" href="mailto:asktheadvisor@rivier.edu" target="_blank">academic advisor</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-4" id="fn-4"><sup> 1 </sup></a>. Advisors will assist you in receiving credit where appropriate and adjusting your fall schedule.</div></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-21"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
-<div class="para" id="p-152">What if I change my mind about my math course or realize during the first week of the semester that I am in the wrong course?</div>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-21" id="answer-21"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-21"><div class="answer solution-like"><div class="para" id="p-185">As soon as you have your scores or transcripts, contact your <a class="external" href="mailto:asktheadvisor@rivier.edu" target="_blank">academic advisor</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-4" id="fn-4"><sup> 1 </sup></a>. Advisors will assist you in receiving credit where appropriate and adjusting your fall schedule.</div></div></div>
+</div></article><article class="exercise exercise-like" id="changeFAQ"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="para" id="p-186">What if I change my mind about my math course or realize during the first week of the semester that I am in the wrong course?</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-15" id="answer-15"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-15"><div class="answer solution-like">
-<div class="para" id="p-153">Students may change their schedules with the assistance of their advisor at any time before the add/drop deadline, provided there are available seats in courses to be added. The first week of each semester is considered the add/drop period. Courses that are “dropped” during this period will not appear on the student’s transcript. Contact your <a class="external" href="mailto:asktheadvisor@rivier.edu" target="_blank">academic advisor</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-5" id="fn-5"><sup> 2 </sup></a> to make any changes. Rearranging your schedule does pose challenges, so you are encouraged to finalize your schedule early, preferably before the start of the semester. If you are considering switching your math class during the first week of classes, you are encouraged to talk to your instructor about your concerns and what you can expect in their course. You will be expected to make up any work in your added classes that you may have missed during the transition.</div> <div class="para" id="p-154">The add/drop deadline is posted on the <a class="external" href="https://www.rivier.edu/academics/support-resources/registrar/academic-calendar/" target="_blank">Rivier academic calendar</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-6" id="fn-6"><sup> 3 </sup></a>.</div>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-22" id="answer-22"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-22"><div class="answer solution-like">
+<div class="para" id="p-187">Students may change their schedules with the assistance of their advisor at any time before the add/drop deadline, provided there are available seats in courses to be added. The first week of each semester is considered the add/drop period. Courses that are “dropped” during this period will not appear on the student’s transcript. Contact your <a class="external" href="mailto:asktheadvisor@rivier.edu" target="_blank">academic advisor</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-5" id="fn-5"><sup> 2 </sup></a> to make any changes. Rearranging your schedule does pose challenges, so you are encouraged to finalize your schedule early, preferably before the start of the semester. If you are considering switching your math class during the first week of classes, you are encouraged to talk to your instructor about your concerns and what you can expect in their course. You will be expected to make up any work in your added classes that you may have missed during the transition.</div> <div class="para" id="p-188">The add/drop deadline is posted on the <a class="external" href="https://www.rivier.edu/academics/support-resources/registrar/academic-calendar/" target="_blank">Rivier academic calendar</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-6" id="fn-6"><sup> 3 </sup></a>.</div>
 </div></div>
-</div></article><article class="exercise exercise-like" id="exercise-22"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
-<div class="para" id="p-155">What if I can improve my mathematical skills between now and the start of the semester? Should I sign up for a higher course?</div>
+</div></article><article class="exercise exercise-like" id="improveFAQ"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="para" id="p-189">What if I can improve my mathematical skills between now and the start of the semester? Should I sign up for a higher course?</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-16" id="answer-16"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-16"><div class="answer solution-like">
-<div class="para" id="p-156">If you need to learn the content of MA100 or MA112 to take a subsequent course, you are welcome to study mathematics over the remainder of the summer with the intention of enrolling in a higher course. There are many online algebra resources available on the web. You are encouraged to consult the course textbook as well.</div> <div class="para" id="p-157">If you improve your mathematics skills and wish to be placed in a higher course, contact your <a class="external" href="mailto:asktheadvisor@rivier.edu" target="_blank">academic advisor</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-7" id="fn-7"><sup> 4 </sup></a> after you have studied the material. Since students often find that the summer flies by quicker than anticipated and that learning on their own is challenging, we ask that you select a mathematics course based on where you are now, and then request a schedule change if summer study makes a difference. On the other hand, if you can do most of the prerequisite skills and only need to review a topic or two, you may select the higher course now.</div>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-23" id="answer-23"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-23"><div class="answer solution-like">
+<div class="para" id="p-190">If you need to learn the content of MA100 or MA112 to take a subsequent course, you are welcome to study mathematics over the remainder of the summer with the intention of enrolling in a higher course. There are many online algebra resources available on the web. You are encouraged to consult the course textbook as well.</div> <div class="para" id="p-191">If you improve your mathematics skills and wish to be placed in a higher course, contact your <a class="external" href="mailto:asktheadvisor@rivier.edu" target="_blank">academic advisor</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-7" id="fn-7"><sup> 4 </sup></a> after you have studied the material. Since students often find that the summer flies by quicker than anticipated and that learning on their own is challenging, we ask that you select a mathematics course based on where you are now, and then request a schedule change if summer study makes a difference. On the other hand, if you can do most of the prerequisite skills and only need to review a topic or two, you may select the higher course now.</div>
 </div></div>
+</div></article><article class="exercise exercise-like" id="FAQ-unsure"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="para" id="p-192">What if I am still not sure about which course to choose?</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-24" id="answer-24"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-24"><div class="answer solution-like"><div class="para" id="p-193">We appreciate your concern and recognize that choosing the right course may seem to be a daunting task. If the course you were initially directed to seems reasonable and interesting, we encourage you to sign up for that course. Otherwise, you should first determine whether you need <a href="ch-MR.html" class="internal" title="Chapter 2: MA100 Math Refresher">MA100 Math Refresher</a> since that course will help prepare you for your Core Math course, Taking <a href="ch-MR.html" class="internal" title="Chapter 2: MA100 Math Refresher">MA100 Math Refresher</a> is a benefit to the students who really need it, but many students are ready to complete their core math requirement. Because your degree plan does not specify a mathematics course, you may choose whichever of the Core Math Requirement courses, <a href="ch-QL.html" class="internal" title="Chapter 3: MA123 Quantitative Literacy">MA123 Quantitative Literacy</a>, <a href="ch-Puzzles.html" class="internal" title="Chapter 4: MA126 Puzzles, Patterns, and Probability">MA126 Puzzles, Patterns, and Probability</a>, <a href="ch-GeoEx.html" class="internal" title="Chapter 5: MA127 Geometrical Explorations">MA127 Geometrical Explorations</a>, or  <a href="ch-Functions.html" class="internal" title="Chapter 6: MA130 Functions">MA130 Functions</a> sounds the most interesting to you. Of these, <a href="ch-Functions.html" class="internal" title="Chapter 6: MA130 Functions">MA130 Functions</a> requires a strong working knowledge of algebra and graphing. The table in <a href="about.html#gen-ed-sec-options" class="internal" title="Section 1.2: Recommended Mathematics Courses">Section 1.2</a> illustrates some other differences between these courses.</div></div></div>
 </div></article></section></section><div class="hidden-content tex2jax_ignore" id="hk-fn-4"><div class="fn"><code class="code-inline tex2jax_ignore">asktheadvisor@rivier.edu</code></div></div>
 <div class="hidden-content tex2jax_ignore" id="hk-fn-5"><div class="fn"><code class="code-inline tex2jax_ignore">asktheadvisor@rivier.edu</code></div></div>
 <div class="hidden-content tex2jax_ignore" id="hk-fn-6"><div class="fn"><code class="code-inline tex2jax_ignore">rivier.edu/academics/support-resources/registrar/academic-calendar/</code></div></div>
@@ -311,7 +343,7 @@ eBookConfig.enable_chatcodes =  false;
 <a class="previous-button button" href="ch-above130.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="ch-finished.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>
 </div>
-<div id="ptx-page-footer">
+<div id="ptx-page-footer" class="ptx-page-footer">
 <a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
 </div>
 </body>

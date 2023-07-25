@@ -5,7 +5,7 @@
 <!--*         https://pretextbook.org          *-->
 <!--*                                          *-->
 <!--********************************************-->
-<html lang="en-US">
+<html lang="en-US" dir="ltr">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>MA130 Functions</title>
@@ -14,54 +14,79 @@
 <meta property="og:type" content="book">
 <meta property="book:title" content="Rivier University Mathematics Courses">
 <meta property="book:author" content="Teresa D. Magnus, Ph.D.">
-<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
-  tex: {
-    inlineMath: [['\\(','\\)']],
-    tags: "none",
-    tagSide: "right",
-    tagIndent: ".8em",
-    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'color', 'newcommand', 'knowl']}
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
   },
-  options: {
-    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
-    processHtmlClass: "process-math",
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
   },
-  chtml: {
-    scale: 0.98,
-    mtextInheritFont: true
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
   },
-  loader: {
-    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/color', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
-    paths: {pretext: "https://pretextbook.org/js/lib"},
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
   },
-  startup: {
+  "startup": {
     pageReady() {
       return MathJax.startup.defaultPageReady().then(function () {
       console.log("in ready function");
       rsMathReady();
       }
     )}
-  },
+  }
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://unpkg.com/lunr/lunr.js"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.2/pretext_search.js"></script><link href="https://pretextbook.org/css/0.6/pretext_search.css" rel="stylesheet" type="text/css">
-<script>js_version = 0.2</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.2/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.2/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.2/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.3/pretext_search.js"></script><link href="https://pretextbook.org/css/0.7/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.3</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.3/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.3/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.3/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
-<link href="https://pretextbook.org/css/0.6/pretext.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/pretext_add_on.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/shell_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/banner_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/navbar_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/toc_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/knowls_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/style_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/colors_blue_red.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/setcolors.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/setcolors.css" rel="stylesheet" type="text/css">
 <!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
@@ -95,18 +120,18 @@ eBookConfig.enable_chatcodes =  false;
 <link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.0.7/prefix-runestone.8d2f742bc74f4a41.css">
 </head>
 <body class="pretext book ignore-math">
-<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead"><div class="ptx-banner">
-<a id="logo-link" href=""></a><div class="title-container">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" href=""></a><div class="title-container">
 <h1 class="heading"><a href="RivUMathCourses.html"><span class="title">Rivier University Mathematics Courses:</span> <span class="subtitle">A Supplement to the Directed Self-Placement Survey</span></a></h1>
 <p class="byline">Teresa D. Magnus, Ph.D.</p>
 </div>
-<div id="searchresultsplaceholder" style="display: none">
-<button id="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms"></span>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" class="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms" class="searchterms"></span>
 </h2>
-<div id="searchempty"><span>No results.</span></div>
-<ol id="searchresults"></ol>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
 </div>
-</div></header><nav id="ptx-navbar" class="navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="theavatarbutton" class="name">You!</span><div id="preferences_menu_holder" class="hidden"><ol id="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="avatarbutton" class="avatarbutton name">You!</span><div id="preferences_menu_holder" class="preferences_menu_holder hidden"><ol id="preferences_menu" class="preferences_menu" style="font-family: 'Roboto Serif', serif;">
 <li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
 <ol class="hidden avatar">
 <li data-val="You!" tabindex="-1">
@@ -209,7 +234,7 @@ eBookConfig.enable_chatcodes =  false;
 </ol>
 </li>
 </ol></div></button><span class="treebuttons"><a class="previous-button button" href="ch-GeoEx.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="RivUMathCourses.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="ch-above130.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
-<input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
+<input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()">🔍</button>
 </div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
@@ -218,7 +243,7 @@ eBookConfig.enable_chatcodes =  false;
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar"><nav id="ptx-toc" class="depth1"><ul class="structural">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth1"><ul class="structural">
 <li><div class="toc-item"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
 <li>
 <div class="toc-item"><a href="about.html" class="internal"><span class="codenumber">1</span> <span class="title">Guide to Selecting Courses</span></a></div>
@@ -264,7 +289,10 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-item"><a href="ch-Functions.html#sec-Func-topics" class="internal"><span class="codenumber">6.1</span> <span class="title">Topics in MA130 Functions</span></a></div>
 <ul class="structural"><li><div class="toc-item"><a href="ch-Functions.html#exer-130" class="internal"><span class="codenumber">6.1</span> <span class="title">What will I learn in MA130 Functions?</span></a></div></li></ul>
 </li>
-<li><div class="toc-item"><a href="ch-Functions.html#section-12" class="internal"><span class="codenumber">6.2</span> <span class="title">Are you ready for MA130?</span></a></div></li>
+<li>
+<div class="toc-item"><a href="ch-Functions.html#sec-Func-ready" class="internal"><span class="codenumber">6.2</span> <span class="title">Are you ready for MA130?</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="ch-Functions.html#exer-CA" class="internal"><span class="codenumber">6.2</span> <span class="title">What will I learn in MA112 College Algebra</span></a></div></li></ul>
+</li>
 <li><div class="toc-item"><a href="ch-Functions.html#section-13" class="internal"><span class="codenumber">6.3</span> <span class="title">Choosing Your Course</span></a></div></li>
 </ul>
 </li>
@@ -274,7 +302,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li>
 <div class="toc-item"><a href="ch-FAQ.html" class="internal"><span class="codenumber">8</span> <span class="title">Frequently Asked Questions</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="ch-FAQ.html#exercises-4" class="internal"><span class="codenumber">8</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="ch-FAQ.html#exercises-5" class="internal"><span class="codenumber">8</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li><div class="toc-item"><a href="ch-finished.html" class="internal"><span class="codenumber">9</span> <span class="title">Final Step: Recording Your Selection</span></a></div></li>
 <li><div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
@@ -380,19 +408,142 @@ t\approx 24.68
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-13" id="answer-13"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-13"><div class="answer solution-like"><div class="para" id="p-143">(a) <span class="process-math">\(f(x)=2-|x-4|\text{;}\)</span> (b) <span class="process-math">\(f(t)=2cos(t)+1\)</span>
 </div></div></div>
-</div></article></section></section><section class="section" id="section-12"><h3 class="heading hide-type">
+</div></article></section></section><section class="section" id="sec-Func-ready"><h3 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">6.2</span> <span class="title">Are you ready for MA130?</span>
 </h3>
-<div class="para" id="p-144">Some students need to reinforce their algebraic skills and understanding to prepare for success in MA130. If you are able to do most of the problems in the next set on your own, then you should do well in MA130. If your degree and career plan includes a need for Functions or Calculus and you struggle with most of these prerequisite problems, then you may want to start in MA112. If you do not plan on taking MA130 later, we recommend that you choose one of the other options accessible from the left sidebar.</div></section><section class="section" id="section-13"><h3 class="heading hide-type">
+<div class="para" id="p-144">Some students need to reinforce their algebraic skills and understanding to prepare for success in MA130. If you are able to do most of the problems in the next set on your own, then you should do well in MA130. If your degree and career plan includes a need for Functions or Calculus and you struggle with most of these prerequisite problems, then you may want to start in MA112. If you do not plan on taking MA130 later, we recommend that you choose one of the other options accessible from the left sidebar.</div>
+<section class="exercises" id="exer-CA"><h4 class="heading hide-type">
+<span class="type">Exercises</span> <span class="codenumber"></span> <span class="title">What will I learn in MA112 College Algebra</span>
+</h4>
+<section class="introduction" id="introduction-9"><div class="para" id="p-145">At the end of MA112, you should be able to do the following:</div></section><article class="exercise exercise-like" id="exercise-20"><h5 class="heading">
+<span class="codenumber">1<span class="period">.</span></span><span class="space"> </span><span class="title">Simplify Algebraic Expressions.</span>
+</h5>
+<div class="para" id="p-146">Simplify the following:</div> <ol class="lower-alpha cols2">
+<li id="li-71"><div class="para" id="p-147"><span class="process-math">\(\displaystyle 3x^2-5(x+4)^2\)</span></div></li>
+<li id="li-72"><div class="para" id="p-148"><span class="process-math">\(\displaystyle \frac{6x^2-6}{2x^2-4x+2}\)</span></div></li>
+</ol>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-14" id="answer-14"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-14"><div class="answer solution-like"><div class="para" id="p-149">a. <span class="process-math">\(-2x^2-40x-80\text{;}\)</span> (b) <span class="process-math">\(\frac{3(x+1)}{x-1}\)</span>
+</div></div></div>
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-15" id="solution-15"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-15"><div class="solution solution-like"><div class="para logical" id="p-150"><ol class="lower-alpha">
+<li id="li-73"><div class="para" id="p-derived-li-73"><span class="process-math">\(\displaystyle 3x^2-5(x+4)^2=3x^2-5(x+4)(x+4)=3x^2-5x^2-40x-80\)</span></div></li>
+<li id="li-74"><div class="para" id="p-derived-li-74"><span class="process-math">\(\displaystyle \frac{6x^2-6}{2x^2-4x+2}=
+\frac{6(x+1)(x-1)}{2(x-1)(x-1)}=\frac{3(x+1)}{x-1}\)</span></div></li>
+</ol></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-21"><h5 class="heading">
+<span class="codenumber">2<span class="period">.</span></span><span class="space"> </span><span class="title">Solve Linear and Quadratic Equations.</span>
+</h5>
+<div class="para" id="p-151">Solve each of the following:</div> <ol class="lower-alpha">
+<li id="li-75"><div class="para" id="p-derived-li-75"><span class="process-math">\(\displaystyle 4x-\frac{2}{3}(x+3)=\frac{1}{3}(x+12)\)</span></div></li>
+<li id="li-76"><div class="para" id="p-derived-li-76"><span class="process-math">\(\displaystyle (x-4)(x+5)=36\)</span></div></li>
+</ol>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref hint-knowl original" data-refid="hk-hint-5" id="hint-5"><span class="type">Hint</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-hint-5"><div class="hint solution-like"><div class="para" id="p-152">Using a guess-and-check method does not qualify as understanding this concept.</div></div></div>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-15" id="answer-15"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-15"><div class="answer solution-like"><div class="para" id="p-153">(a) <span class="process-math">\(x=2\text{;}\)</span> (b) <span class="process-math">\(x=7\)</span> or <span class="process-math">\(x=-8\)</span>
+</div></div></div>
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-16" id="solution-16"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-16"><div class="solution solution-like"><div class="para logical" id="p-154"><ol class="lower-alpha">
+<li id="li-77"><div class="para" id="p-155">One method of solving this problem is to use the distributive property to get <span class="process-math">\(4x-\frac{2x}{3}-2=\frac{x}{3}+4\text{.}\)</span> Adding <span class="process-math">\(2-\frac{x}{3}\)</span> to both sides gives <span class="process-math">\(4x-\frac{2x}{3}-\frac{x}{3}=4+2\)</span> or <span class="process-math">\(4x-x=6\text{.}\)</span> Thus, <span class="process-math">\(3x=6\)</span> and <span class="process-math">\(x=2\text{.}\)</span>
+</div></li>
+<li id="li-78"><div class="para" id="p-derived-li-78">Expanding the left side, we get <span class="process-math">\(x^2+x-20=36\)</span> which can be rewritten as <span class="process-math">\(x^2+x-56=0\text{.}\)</span> Factoring the polynomial gives us <span class="process-math">\((x-7)(x+8)=0\)</span> so that <span class="process-math">\(x=7\)</span> or <span class="process-math">\(x=-8\text{.}\)</span>
+</div></li>
+</ol></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-22"><h5 class="heading">
+<span class="codenumber">3<span class="period">.</span></span><span class="space"> </span><span class="title">Work with exponents and radicals.</span>
+</h5>
+<div class="para" id="p-156">Simplify the following expressions:</div> <ol class="lower-alpha">
+<li id="li-79"><div class="para" id="p-derived-li-79"><span class="process-math">\(\displaystyle \sqrt{9x^2 y^6}\)</span></div></li>
+<li id="li-80"><div class="para" id="p-derived-li-80"><span class="process-math">\(\displaystyle \left(\frac{24x^8}{15x^3}\right)^{-2}\)</span></div></li>
+</ol>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-16" id="answer-16"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-16"><div class="answer solution-like"><div class="para" id="p-157">(a) <span class="process-math">\(3xy^3\text{;}\)</span> (b) <span class="process-math">\(\frac{4y^2}{21x^2}\text{;}\)</span> (c) <span class="process-math">\(\frac{25}{64x^{10}}\)</span>
+</div></div></div>
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-17" id="solution-17"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-17"><div class="solution solution-like"><div class="para logical" id="p-158"><ol class="lower-alpha">
+<li id="li-81"><div class="para" id="p-derived-li-81"><span class="process-math">\(\displaystyle \sqrt{9x^2 y^6}=\sqrt{9}\sqrt{x^2}\sqrt{y^6}=3xy^3\)</span></div></li>
+<li id="li-82"><div class="para" id="p-derived-li-82"><div class="displaymath process-math" id="md-2">
+\begin{align*}
+\left(\frac{2x}{3}\right)^3 \left(\frac{9y^2}{14x^5}\right)
+\amp=\left(\frac{(2x)^3}{3^3}\right) \left(\frac{9y^2}{14x^5}\right)\\
+\amp=\frac{8x^3\cdot 9y^2}{27\cdot 14x^5}
+=\frac{4y^2}{21x^2}
+\end{align*}
+</div></div></li>
+<li id="li-83"><div class="para" id="p-derived-li-83"><span class="process-math">\(\displaystyle \left(\frac{24x^8}{15x^3}\right)^{-2}
+=\left(\frac{8x^5}{5}\right)^{-2}=\left(\frac{64x^{10}}{25}\right)^{-1}
+=\frac{25}{64x^{10}}\)</span></div></li>
+</ol></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-23"><h5 class="heading">
+<span class="codenumber">4<span class="period">.</span></span><span class="space"> </span><span class="title">Determine an Equation for a Line.</span>
+</h5>
+<div class="para" id="p-159">Determine an equation for the line that passes through the point <span class="process-math">\((10,4)\)</span> and is perpendicular to the line <span class="process-math">\(y=5x-12\text{.}\)</span>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-17" id="answer-17"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-17"><div class="answer solution-like"><div class="para" id="p-160">Possible solutions include <span class="process-math">\(y=-\frac{1}{5}x+6\)</span> and <span class="process-math">\(x+5y=30\text{.}\)</span>
+</div></div></div>
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-18" id="solution-18"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-18"><div class="solution solution-like"><div class="para" id="p-161">In order for the line to be perpendicular to <span class="process-math">\(y=5x-12\text{,}\)</span> the slope of the line must be <span class="process-math">\(-\frac{1}{5}\text{.}\)</span> We can then use this slope together with the point <span class="process-math">\((10,4)\)</span> to find the <span class="process-math">\(y\)</span>-intercept by solving <span class="process-math">\(4=-\frac{1}{5}(10)+b\text{.}\)</span> Another option is to substitute into the point-slope form to get, <span class="process-math">\(y-4=-\frac{1}{5}(x-10)\text{.}\)</span>
+</div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-24"><h5 class="heading">
+<span class="codenumber">5<span class="period">.</span></span><span class="space"> </span><span class="title">Solve systems of linear equations.</span>
+</h5>
+<div class="para logical" id="p-162">
+<div class="para">Find the ordered pair that satisfies the system:</div>
+<div class="displaymath process-math" id="md-3">
+\begin{align*}
+x+2y&amp;=25\\
+10x+15y&amp;=210 
+\end{align*}
+</div>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref hint-knowl original" data-refid="hk-hint-6" id="hint-6"><span class="type">Hint</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-hint-6"><div class="hint solution-like">You should be able to solve this problem algebraically either by elimination or by the substitution method. Using a guess-and-check strategy does not count as understanding this concept.</div></div>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-18" id="answer-18"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-18"><div class="answer solution-like"><div class="para" id="p-163">
+<span class="process-math">\((x,y)=(9,8)\text{;}\)</span> that is, <span class="process-math">\(x=9\)</span> and <span class="process-math">\(y=8\text{.}\)</span>
+</div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-25"><h5 class="heading">
+<span class="codenumber">6<span class="period">.</span></span><span class="space"> </span><span class="title">Factor polynomials and solve polynomial equations.</span>
+</h5>
+<ol class="lower-alpha">
+<li id="li-84"><div class="para" id="p-164">Factor <span class="process-math">\(28x^3y^5-14x^5y^2\text{.}\)</span>
+</div></li>
+<li id="li-85"><div class="para" id="p-165">Solve <span class="process-math">\(81x^4=16\text{.}\)</span>
+</div></li>
+</ol>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-19" id="answer-19"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-19"><div class="answer solution-like"><div class="para" id="p-166">(a) <span class="process-math">\(14x^3y^2(2y^3-x^2)\text{;}\)</span> (b) <span class="process-math">\(x=\pm\frac{2}{3}\)</span>
+</div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-26"><h5 class="heading">
+<span class="codenumber">7<span class="period">.</span></span><span class="space"> </span><span class="title">Combine and evaluate functions.</span>
+</h5>
+<div class="para" id="p-167">Let <span class="process-math">\(f(x)=x+3\)</span> and <span class="process-math">\(g(x)=2x^2-x+4\text{.}\)</span> Determine the following:</div> <ol class="lower-alpha cols2">
+<li id="li-86"><div class="para" id="p-168"><span class="process-math">\(\displaystyle g(10)\)</span></div></li>
+<li id="li-87"><div class="para" id="p-169"><span class="process-math">\(\displaystyle (f+g)(x)\)</span></div></li>
+<li id="li-88"><div class="para" id="p-170"><span class="process-math">\(\displaystyle (fg)(2)\)</span></div></li>
+<li id="li-89"><div class="para" id="p-171"><span class="process-math">\(\displaystyle g\circ f(x)\)</span></div></li>
+</ol>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-20" id="answer-20"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-20"><div class="answer solution-like"><div class="para" id="p-172">(a) <span class="process-math">\(g(10)=194\text{;}\)</span> (b) <span class="process-math">\((f+g)(x)=2x^2+7\text{;}\)</span> (c) <span class="process-math">\((fg)(2)=50\text{;}\)</span> (d) <span class="process-math">\(f\circ g(x)=2x^2+11x+19\)</span>
+</div></div></div>
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-19" id="solution-19"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-19"><div class="solution solution-like"><div class="para logical" id="p-173"><ol class="lower-alpha">
+<li id="li-90"><div class="para" id="p-174"><span class="process-math">\(\displaystyle g(10)=2(10)^2-10+4=200-10+4=194\)</span></div></li>
+<li id="li-91"><div class="para" id="p-175"><span class="process-math">\(\displaystyle (f+g)(x)=f(x)+g(x)=(x+3)+(2x^2-x+4)=2x^2+7\)</span></div></li>
+<li id="li-92"><div class="para" id="p-176"><span class="process-math">\(\displaystyle (fg)(2)=f(2)g(2)=5\cdot 10=50\)</span></div></li>
+<li id="li-93"><div class="para logical" id="p-177"><div class="displaymath process-math" id="md-4">
+\begin{align*}
+f\circ g(x)\amp=2(x+3)^2-(x+3)+4\\
+\amp=2x^2+12x+18-x-3+4=2x^2+11x+19
+\end{align*}
+</div></div></li>
+</ol></div></div></div>
+</div></article></section></section><section class="section" id="section-13"><h3 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">6.3</span> <span class="title">Choosing Your Course</span>
 </h3>
-<div class="para" id="p-145">MA130 is the right course for you if you are strong in algebra techniques (see <a href="" class="internal" title=""> </a> for comparison) but find many of the problems in <a href="ch-Functions.html#exer-130" class="internal" title="Exercises 6.1: What will I learn in MA130 Functions?">Exercises 6.1</a> to be new or difficult. In MA130, there will also be an emphasis on doing problems that are closer to how you encounter mathematics beyond the classroom; your ability to take a mathematical situation and rephrase it into a formula will grow. On the other hand, if you are comfortable completing most of the above problems on your own with only minor errors, then you may be ready to enroll in <a href="ch-above130.html" class="internal" title="Chapter 7: Courses Beyond MA130 Functions">MA165 Calculus or a higher-level course</a>. Talk to your advisor and/or the mathematics program director to help you determine the right course for you. Credit for Advanced Placement exams will be considered once scores are received.</div>
-<div class="para" id="p-146">If you are ready to confirm your mathematics course selection or inquire about courses above MA130, return to the Directed Self-Placement and check the box for the desired course or action.</div></section></section></div>
+<div class="para" id="p-178">MA130 is the right course for you if you can do most of the algebraic techniques in <a href="ch-Functions.html#sec-Func-ready" class="internal" title="Section 6.2: Are you ready for MA130?">Section 6.2</a>, but find many of the problems in <a href="ch-Functions.html#exer-130" class="internal" title="Exercises 6.1: What will I learn in MA130 Functions?">Exercises 6.1</a> to be new or difficult. In MA130, there will also be an emphasis on doing problems that are closer to how you encounter mathematics beyond the classroom; your ability to take a mathematical situation and rephrase it into a formula will grow.</div>
+<div class="para" id="p-179">On the other hand, if you are comfortable completing most of the <a href="ch-Functions.html#exer-130" class="internal" title="Exercises 6.1: What will I learn in MA130 Functions?">Exercises 6.1</a> problems on your own with only minor errors, then you may be ready to enroll in <a href="ch-above130.html" class="internal" title="Chapter 7: Courses Beyond MA130 Functions">MA165 Calculus or a higher-level course</a>. Talk to your advisor and/or the mathematics program director to help you determine the right course for you. Credit for Advanced Placement exams will be considered once scores are received.</div>
+<div class="para" id="p-180">If you are ready to confirm your mathematics course selection or inquire about courses above MA130, return to the Directed Self-Placement and check the box for the desired course of action.</div></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="ch-GeoEx.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="ch-above130.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>
 </div>
-<div id="ptx-page-footer">
+<div id="ptx-page-footer" class="ptx-page-footer">
 <a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
 </div>
 </body>

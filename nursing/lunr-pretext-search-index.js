@@ -160,34 +160,43 @@ var ptx_lunr_docs = [
   "type": "Chapter",
   "number": "4",
   "title": "Frequently Asked Questions",
-  "body": " Frequently Asked Questions    Here are the answers to some questions you might have:    What should I do if I have possible college credit (Advanced Placement, International Baccalaureate, Running Start, transfer credit)?   As soon as you have your scores or transcripts, contact your academic advisor . Advisors will assist you in receiving credit where appropriate and adjusting your fall schedule.    What if I change my mind about my math course or realize during the first week of the semester that I am in the wrong course?   Students may change their schedules with the assistance of their advisor at any time before the add\/drop deadline, provided there are available seats in courses to be added. The first week of each semester is considered the add\/drop period. Courses that are “dropped” during this period will not appear on the student’s transcript. Contact your academic advisor to make any changes. Rearranging your schedule does pose challenges, so you are encouraged to finalize your schedule early, preferably before the start of the semester. If you are considering switching your math class during the first week of classes, you are encouraged to talk to your instructor about your concerns and what you can expect in their course. You will be expected to make up any work in your added classes that you may have missed during the transition.  The add\/drop deadline is posted on the Rivier academic calendar .    What if I can improve my mathematical skills between now and the start of the semester? Should I sign up for a higher course?   If you need to learn the content of MA100 or MA112 to take a subsequent course, you are welcome to study mathematics over the remainder of the summer with the intention of enrolling in a higher course. There are many online algebra resources available on the web. You are encouraged to consult the course textbook as well.  If you improve your mathematics skills and wish to be placed in a higher course, contact your academic advisor after you have studied the material. Since students often find that the summer flies by quicker than anticipated and that learning on their own is challenging, we ask that you select a mathematics course based on where you are now, and then request a schedule change if summer study makes a difference. On the other hand, if you can do most of the prerequisite skills and only need to review a topic or two, you may select the higher course now.    "
+  "body": " Frequently Asked Questions    Here are the answers to some questions you might have:    What should I do if I have possible college credit (Advanced Placement, International Baccalaureate, Running Start, transfer credit)?   As soon as you have your scores or transcripts, contact your academic advisor . Advisors will assist you in receiving credit where appropriate and adjusting your fall schedule.    What if I change my mind about my math course or realize during the first week of the semester that I am in the wrong course?   Students may change their schedules with the assistance of their advisor at any time before the add\/drop deadline, provided there are available seats in courses to be added. The first week of each semester is considered the add\/drop period. Courses that are “dropped” during this period will not appear on the student’s transcript. Contact your academic advisor to make any changes. Rearranging your schedule does pose challenges, so you are encouraged to finalize your schedule early, preferably before the start of the semester. If you are considering switching your math class during the first week of classes, you are encouraged to talk to your instructor about your concerns and what you can expect in their course. You will be expected to make up any work in your added classes that you may have missed during the transition.  The add\/drop deadline is posted on the Rivier academic calendar .    What if I can improve my mathematical skills between now and the start of the semester? Should I sign up for a higher course?   If you need to learn the content of MA100 or MA112 to take a subsequent course, you are welcome to study mathematics over the remainder of the summer with the intention of enrolling in a higher course. There are many online algebra resources available on the web. You are encouraged to consult the course textbook as well.  If you improve your mathematics skills and wish to be placed in a higher course, contact your academic advisor after you have studied the material. Since students often find that the summer flies by quicker than anticipated and that learning on their own is challenging, we ask that you select a mathematics course based on where you are now, and then request a schedule change if summer study makes a difference. On the other hand, if you can do most of the prerequisite skills and only need to review a topic or two, you may select the higher course now.    What if I am still not sure about which course to choose?   We appreciate your concern and recognize that choosing the right course may seem to be a daunting task. If the course you were initially directed to seems reasonable, we encourage you to sign up for that course. Courses recommended for Nursing Majors in increasing order of difficulty are: and . Perhaps, your skill set lies somewhere between the two courses. Taking is a benefit to the students who really need it, but it means the loss of the only elective slot in the nursing degree plan. As a nursing major, you will be taking other challenging courses in your first year, but it is also helpful to complete early in your program to prepare you for the mathematics in your nursing program. How comfortable are you with tackling mathematical challenges and seeking help when needed? How much support have you relied on in previous courses?    "
 },
 {
-  "id": "exercise-14",
+  "id": "creditFAQ",
   "level": "2",
-  "url": "ch-FAQ.html#exercise-14",
+  "url": "ch-FAQ.html#creditFAQ",
   "type": "Exercise",
   "number": "4.1",
   "title": "",
   "body": " What should I do if I have possible college credit (Advanced Placement, International Baccalaureate, Running Start, transfer credit)?   As soon as you have your scores or transcripts, contact your academic advisor . Advisors will assist you in receiving credit where appropriate and adjusting your fall schedule.  "
 },
 {
-  "id": "exercise-15",
+  "id": "changeFAQ",
   "level": "2",
-  "url": "ch-FAQ.html#exercise-15",
+  "url": "ch-FAQ.html#changeFAQ",
   "type": "Exercise",
   "number": "4.2",
   "title": "",
   "body": " What if I change my mind about my math course or realize during the first week of the semester that I am in the wrong course?   Students may change their schedules with the assistance of their advisor at any time before the add\/drop deadline, provided there are available seats in courses to be added. The first week of each semester is considered the add\/drop period. Courses that are “dropped” during this period will not appear on the student’s transcript. Contact your academic advisor to make any changes. Rearranging your schedule does pose challenges, so you are encouraged to finalize your schedule early, preferably before the start of the semester. If you are considering switching your math class during the first week of classes, you are encouraged to talk to your instructor about your concerns and what you can expect in their course. You will be expected to make up any work in your added classes that you may have missed during the transition.  The add\/drop deadline is posted on the Rivier academic calendar .  "
 },
 {
-  "id": "exercise-16",
+  "id": "improveFAQ",
   "level": "2",
-  "url": "ch-FAQ.html#exercise-16",
+  "url": "ch-FAQ.html#improveFAQ",
   "type": "Exercise",
   "number": "4.3",
   "title": "",
   "body": " What if I can improve my mathematical skills between now and the start of the semester? Should I sign up for a higher course?   If you need to learn the content of MA100 or MA112 to take a subsequent course, you are welcome to study mathematics over the remainder of the summer with the intention of enrolling in a higher course. There are many online algebra resources available on the web. You are encouraged to consult the course textbook as well.  If you improve your mathematics skills and wish to be placed in a higher course, contact your academic advisor after you have studied the material. Since students often find that the summer flies by quicker than anticipated and that learning on their own is challenging, we ask that you select a mathematics course based on where you are now, and then request a schedule change if summer study makes a difference. On the other hand, if you can do most of the prerequisite skills and only need to review a topic or two, you may select the higher course now.  "
+},
+{
+  "id": "FAQ-unsure",
+  "level": "2",
+  "url": "ch-FAQ.html#FAQ-unsure",
+  "type": "Exercise",
+  "number": "4.4",
+  "title": "",
+  "body": " What if I am still not sure about which course to choose?   We appreciate your concern and recognize that choosing the right course may seem to be a daunting task. If the course you were initially directed to seems reasonable, we encourage you to sign up for that course. Courses recommended for Nursing Majors in increasing order of difficulty are: and . Perhaps, your skill set lies somewhere between the two courses. Taking is a benefit to the students who really need it, but it means the loss of the only elective slot in the nursing degree plan. As a nursing major, you will be taking other challenging courses in your first year, but it is also helpful to complete early in your program to prepare you for the mathematics in your nursing program. How comfortable are you with tackling mathematical challenges and seeking help when needed? How much support have you relied on in previous courses?  "
 },
 {
   "id": "ch-finished",
