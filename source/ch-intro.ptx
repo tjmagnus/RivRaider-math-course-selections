@@ -117,7 +117,7 @@
             <cell>Visual or Tactile</cell>
           </row>
           <row component="NG">
-            <cell><xref ref="ch-QL" text="title"/></cell>
+            <cell><xref ref="ch-QL" text="custom">MA123</xref></cell>
             <cell>yes</cell>
             <cell>yes</cell>
             <cell>some</cell>
@@ -125,7 +125,7 @@
             <cell>no</cell>
           </row>
           <row>
-            <cell><xref ref="ch-Puzzles" text="title"/></cell>
+            <cell><xref ref="ch-Puzzles" text="custom">MA126</xref></cell>
             <cell>some</cell>
             <cell>some</cell>
             <cell>yes</cell>
@@ -133,7 +133,7 @@
             <cell>some</cell>
           </row>
           <row>
-            <cell><xref ref="ch-GeoEx" text="title"/></cell>
+            <cell><xref ref="ch-GeoEx" text="custom">MA127</xref></cell>
             <cell>some</cell>
             <cell>some</cell>
             <cell>yes</cell>
@@ -141,7 +141,7 @@
             <cell>yes</cell>
           </row>
           <row>
-            <cell><xref ref="ch-Functions" text="title"/></cell>
+            <cell><xref ref="ch-Functions" text="custom">MA130</xref></cell>
             <cell>yes</cell>
             <cell>yes</cell>
             <cell>some</cell>

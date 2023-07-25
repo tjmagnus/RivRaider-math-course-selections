@@ -102,7 +102,7 @@
             </p>
         </answer>
     </exercise>
-    <exercise>
+    <exercise xml:id="FAQ-unsure">
         <statement>
             <p>
                 What if I am still not sure about which course to choose?
@@ -117,13 +117,13 @@
                 it as appropriate. Courses recommended for Quantitative Majors in 
                 increasing order of difficulty are: <xref ref="ch-MR" text="title"/>,
                 <xref ref="ch-CA" text="title"/>, <xref ref="ch-Functions" text="title"/>, or a
-                <xref ref="above130">course above MA130</xref>. Perhaps, your skill
+                <xref ref="ch-above130">course above MA130</xref>. Perhaps, your skill
                 set lies somewhere between two courses. How comfortable are you with 
                 tackling mathematical challenges and seeking help when needed? How much
                 support have you relied on in previous courses? Note also that 
                 <xref ref="ch-MR" text="title"/> and <xref ref="ch-Functions" text="title"/> are only
                 offered in fall semesters so you may want to take MA130 if you are mostly 
-                ready. It is easier to drop down to <xref ref="ch-CA" text="title"> from 
+                ready. It is easier to drop down to <xref ref="ch-CA" text="title"/> from 
                 <xref ref="ch-Functions" text="title"/> during the first week of class than
                 the other way around.    
             </p>
@@ -167,7 +167,7 @@
                 requirement. Because your degree plan does not specify a mathematics course, you may choose whichever of the Core Math Requirement
                 courses, <xref ref="ch-QL" text="title"/>, <xref ref="ch-Puzzles" text="title"/>, <xref ref="ch-GeoEx" text="title"/>, or  <xref ref="ch-Functions" text="title"/>
                 sounds the most interesting to you. Of these, <xref ref="ch-Functions" text="title"/> requires a strong working knowledge of
-                algebra and graphing. The table in <xref ref="gen-ed-sec-options"> illustrates some other differences between these courses.
+                algebra and graphing. The table in <xref ref="gen-ed-sec-options"/> illustrates some other differences between these courses.
             </p>
         </answer>
     </exercise>
