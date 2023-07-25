@@ -30,36 +30,39 @@
             or higher. On the other hand, students who took a calculus
             course in high school which focused primarily on computations
             with little attention to theory and applications 
-            may benefit from MA130.
+            may benefit from MA130 and are allow to enroll.
         </p>
         <p>
             The prerequisites for MA130 are the same as the learning 
             outcomes for MA112 College Algebra,
             a course recommended only for students 
-            who plan also to take MA130 Functions. It will be assumed that students can
+            who plan also to take MA130 Functions. In MA130, it 
+            will be assumed that students can
             simplify algebraic expressions, solve linear and quadratic 
             equations, work with exponents and radicals, compute the slope
             and give an equation of a line through two points, and work with functional 
-            notation. 
+            notation prior to the start of the course. 
         </p>
         <p component="quant">
             Sample prerequisite problems may be viewed at 
             <xref ref="ch-CA" text="custom">MA112 College Algebra</xref> and 
-            at the end of the current page.
-            may help you gage your readiness for 
-            MA130. If most of these algebra problems in 
+            at the end of the current page. You are encouraged to look at these  
+            problems, attempting and self-checking enough of them to determine 
+            whether you are prepared for MA130 Functions.
+            If most of these algebra problems in 
             <xref ref="ch-CA" text="custom">MA112 College Algebra</xref> are 
-            difficult for you, you might want to begin in MA112 instead of MA130.-->   
+            difficult for you, you might want to begin in MA112 instead of MA130.
         </p>
+
     <exercises xml:id="exer-130">
         <title>What will I learn in MA130 Functions?</title>
         <introduction>
           <p> 
             At the end of MA130, you should be able to do the following. You 
-            do not need to be able to do these problems at the beginning of the course. 
+            are not expected to be able to do these problems at the beginning of the course. 
             Trigonometric, exponential, and logarithmic functions will be introduced 
             in MA130, but students should already have a strong grasp of linear functions 
-            and the ability to simplify expressions involving polynomials, radicals, and 
+            and experience working with absolute values, polynomials, radicals, and 
             exponents.
           </p>
         </introduction>
@@ -101,6 +104,7 @@
         <exercise>
             <title>Work with functions defined graphically</title>
             <statement>
+                <p>
                 Given the graph of <m>y=g(x)</m> above, determine the following:
                 <ol>
                     <li>
@@ -114,6 +118,7 @@
                         </p>
                     </li>
                 </ol>
+                </p>
             </statement>
         </exercise>
         <exercise>
@@ -280,7 +285,7 @@
                 </p>
                 <ol>
                     <li>
-                        <p>
+                        <!--<p>-->
                             <image source="Rivabsgph130" width="50%">
                                 <description>The graph of a upside-down V-shaped function, 
                                     rising from the lower left until it 
@@ -288,17 +293,15 @@
                                     again. The intercepts are (0,-2), (2,0), and (6,0).  
                                 </description>
                             </image>
-                        </p>
+                        <!--</p>-->
                     </li>
                     <li>
-                        <p>
                             <image source="Rivsinugraph130" width="50%">
                                 <description>The graph of an oscillating function with maxima 
                                     at <m>(-2\pi,3)</m>, <m>(0,3)</m>, and <m>(2\pi,3)</m> and 
                                         minima at <m>(-\pi,-1)</m>, <m>(\pi,-1)</m>, and <m>(3\pi,-1)</m>.   
                                 </description>
                             </image>  
-                        </p>
                     </li>
                 </ol>      
             </statement>
@@ -307,53 +310,59 @@
         </exercise>
     </exercises>
     </section>
-    <section xml:id="sec-Func-ready">
+    <section>
         <title>Are you ready for MA130?</title>
         <p component="EG">
             Some students need to reinforce their algebraic skills 
             and understanding to prepare for success in MA130. If you 
             are able to do most of the problems in the next set on your 
-            own, then you should do well in MA130. If your degree and 
-            career plan includes a need for Functions or Calculus and you 
+            own, then you should do well in MA130. If you want to eventually 
+            take Functions and possibly Calculus but you 
             struggle with most of these prerequisite problems, then you 
-            may want to start in MA112. If you do not plan on taking 
-            MA130 later, we recommend that you choose one of the other 
-            options accessible from the left sidebar.
+            should begin in MA112 College Algebra. More information is available  
+            in the <url 
+            href="https://tjmagnus.github.io/RivRaider-math-course-selections/quantitative/ch-CA.html">
+            visual="mathematics course selection document for majors in quantitative 
+            fields"</url>. 
+            If do not plan on taking MA130 either now or in the future, 
+            we recommend that you choose <xref ref="ch-Puzzles" text="title"> or 
+            <xref ref="ch-GeoEx" text="title"/>, not MA112.
         </p>
         <p component="quant">
             Some students need to reinforce their algebraic skills 
             and understanding to prepare for success in MA130. If you 
             are able to do most of the problems in the next set on your 
-            own, then you should do well in MA130. Since your degree and 
-            career plan includes a need for Functions or Calculus, if you 
-            struggle with most of these prerequisite problems, then you 
-            may want to start in <xref ref="ch-CA" text="title"/>. 
+            own, then you should do well in MA130. If, on the other hand, 
+            you are unable to complete these problems, 
+            you may want to start in <xref ref="ch-CA" text="title"/> in preparation
+            for taking Functions and possibly Calculus as required by your degree plan. 
         </p>
-        <xi:include href="exer-CA"/>
+        <!--<xi:include href="exer-CA"/>-->
     </section>
     <section>
         <title>Choosing Your Course</title>
             <p>
-              MA130 is the right course for you if you can do most of the 
-              algebraic techniques in <xref ref="sec-Func-ready"/>,
-                but find many of the problems in <xref ref="exer-130"/>
+              MA130 is the right course for you if you are strong in algebra techniques (see <xref ref="ch-CA"/> for 
+              comparison) but find many of the problems in <xref ref="exer-130"/>
               to be new or difficult. In MA130, there will also be an emphasis on 
               doing problems that are closer to how you encounter mathematics beyond the classroom; your 
               ability to take a mathematical situation and rephrase it into a formula will grow. 
-            </p>
-            <p>
+              
               On the other hand, if you are comfortable completing most of the
-                <xref ref="exer-130"/> problems on your own with only minor errors, 
+              above problems on your own with only minor errors, 
               then you may be ready to enroll in <xref ref="ch-above130" 
               text="custom">MA165 Calculus 
-              or a higher-level course</xref>. Talk to your advisor and/or 
-              the mathematics program director to help you determine the right course for you.
-              Credit for Advanced Placement exams will be considered once scores are received.
+              or a higher-level course</xref>. Select "course above MA130" on the 
+              Directed Self-Placement Tool and talk to your advisor and/or 
+              the mathematics program director to help you determine the right 
+              course for you.
+              Credit for Advanced Placement exams will be considered once scores 
+              are received (see <xref ref="ch-FAQ" text="title"/>).
               </p>
               <p>
               If you are ready to confirm your mathematics course selection or inquire about courses
                 above MA130, return to the Directed Self-Placement and 
-              check the box for the desired course of action. 
+              check the box for the desired course or action. 
             </p>
           </section>
 </chapter>
